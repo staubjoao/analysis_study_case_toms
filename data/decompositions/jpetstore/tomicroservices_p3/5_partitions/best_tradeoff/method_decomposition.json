@@ -1,0 +1,694 @@
+{
+    "tool": {
+        "decomposition": {
+            "microservice0": [
+                {
+                    "id": "AccountActionBean.isAuthenticated"
+                },
+                {
+                    "id": "Account.getPassword"
+                },
+                {
+                    "id": "Account.getCity"
+                },
+                {
+                    "id": "Account.setAddress1"
+                },
+                {
+                    "id": "Account.setAddress2"
+                },
+                {
+                    "id": "Account.setListOption"
+                },
+                {
+                    "id": "Account.getFirstName"
+                },
+                {
+                    "id": "Account.getState"
+                },
+                {
+                    "id": "Account.setLanguagePreference"
+                },
+                {
+                    "id": "AbstractActionBean.getContext"
+                },
+                {
+                    "id": "Account.setLastName"
+                },
+                {
+                    "id": "Account.getUsername"
+                },
+                {
+                    "id": "Account.setBannerName"
+                },
+                {
+                    "id": "AccountActionBean.setUsername"
+                },
+                {
+                    "id": "Account.setPassword"
+                },
+                {
+                    "id": "Account.getZip"
+                },
+                {
+                    "id": "Account.setCity"
+                },
+                {
+                    "id": "Account.getPhone"
+                },
+                {
+                    "id": "AccountActionBean.getCategories"
+                },
+                {
+                    "id": "AccountActionBean.getLanguages"
+                },
+                {
+                    "id": "Account.getAddress2"
+                },
+                {
+                    "id": "Account.getCountry"
+                },
+                {
+                    "id": "Account.getLastName"
+                },
+                {
+                    "id": "Account.setPhone"
+                },
+                {
+                    "id": "Account.setFirstName"
+                },
+                {
+                    "id": "AccountActionBean.newAccountForm"
+                },
+                {
+                    "id": "Account.getFavouriteCategoryId"
+                },
+                {
+                    "id": "AccountActionBean.clear"
+                },
+                {
+                    "id": "Account.isListOption"
+                },
+                {
+                    "id": "Account.setState"
+                },
+                {
+                    "id": "AccountActionBean.signonForm"
+                },
+                {
+                    "id": "AccountActionBean.getPassword"
+                },
+                {
+                    "id": "AccountActionBean.getAccount"
+                },
+                {
+                    "id": "Account.setCountry"
+                },
+                {
+                    "id": "AccountActionBean.editAccountForm"
+                },
+                {
+                    "id": "Account.getAddress1"
+                },
+                {
+                    "id": "Account.getStatus"
+                },
+                {
+                    "id": "Account.setFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.setUsername"
+                },
+                {
+                    "id": "Account.getBannerName"
+                },
+                {
+                    "id": "AccountActionBean.signon"
+                },
+                {
+                    "id": "Account.getLanguagePreference"
+                },
+                {
+                    "id": "AccountService.getAccount"
+                },
+                {
+                    "id": "AccountActionBean.getUsername"
+                },
+                {
+                    "id": "Account.setEmail"
+                },
+                {
+                    "id": "AccountActionBean.setPassword"
+                },
+                {
+                    "id": "AbstractActionBean.setContext"
+                },
+                {
+                    "id": "AccountActionBean.signoff"
+                },
+                {
+                    "id": "Account.getEmail"
+                },
+                {
+                    "id": "AccountActionBean.newAccount"
+                },
+                {
+                    "id": "Account.setZip"
+                },
+                {
+                    "id": "Account.setBannerOption"
+                },
+                {
+                    "id": "Account.isBannerOption"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "Item.setListPrice"
+                },
+                {
+                    "id": "Item.setItemId"
+                },
+                {
+                    "id": "Item.getProduct"
+                },
+                {
+                    "id": "Item.setProduct"
+                },
+                {
+                    "id": "Item.setAttribute1"
+                },
+                {
+                    "id": "Item.getAttribute1"
+                },
+                {
+                    "id": "Item.getAttribute2"
+                },
+                {
+                    "id": "Item.getAttribute5"
+                },
+                {
+                    "id": "Item.setSupplierId"
+                },
+                {
+                    "id": "Item.setStatus"
+                },
+                {
+                    "id": "Item.getAttribute3"
+                },
+                {
+                    "id": "Item.getAttribute4"
+                },
+                {
+                    "id": "Item.getItemId"
+                },
+                {
+                    "id": "Item.setUnitCost"
+                },
+                {
+                    "id": "Item.setQuantity"
+                },
+                {
+                    "id": "Item.getListPrice"
+                },
+                {
+                    "id": "Item.getQuantity"
+                },
+                {
+                    "id": "Order.getShipToLastName"
+                },
+                {
+                    "id": "AccountService.insertAccount"
+                },
+                {
+                    "id": "OrderService.getNextId"
+                },
+                {
+                    "id": "OrderActionBean.clear"
+                },
+                {
+                    "id": "Order.setCreditCard"
+                },
+                {
+                    "id": "Order.setLocale"
+                },
+                {
+                    "id": "AbstractActionBean.setMessage"
+                },
+                {
+                    "id": "Order.setShipToLastName"
+                },
+                {
+                    "id": "Order.getUsername"
+                },
+                {
+                    "id": "OrderService.getOrder"
+                },
+                {
+                    "id": "Product.setDescription"
+                },
+                {
+                    "id": "LineItem.getItem"
+                },
+                {
+                    "id": "LineItem.getItemId"
+                },
+                {
+                    "id": "Order.addLineItem"
+                },
+                {
+                    "id": "Order.getShipCity"
+                },
+                {
+                    "id": "CartItem.isInStock"
+                },
+                {
+                    "id": "Cart.containsItemId"
+                },
+                {
+                    "id": "Sequence.setNextId"
+                },
+                {
+                    "id": "CartItem.getTotal"
+                },
+                {
+                    "id": "CartItem.lambda$calculateTotal$0"
+                },
+                {
+                    "id": "Cart.removeItemById"
+                },
+                {
+                    "id": "Sequence.getName"
+                },
+                {
+                    "id": "Sequence.setName"
+                },
+                {
+                    "id": "CartActionBean.addItemToCart"
+                },
+                {
+                    "id": "Account.setStatus"
+                },
+                {
+                    "id": "CartItem.getItem"
+                },
+                {
+                    "id": "CatalogService.getProductListByCategory"
+                },
+                {
+                    "id": "CartActionBean.viewCart"
+                },
+                {
+                    "id": "CartActionBean.clear"
+                },
+                {
+                    "id": "Cart.setQuantityByItemId"
+                },
+                {
+                    "id": "CartItem.getQuantity"
+                },
+                {
+                    "id": "CartItem.setInStock"
+                },
+                {
+                    "id": "CartActionBean.updateCartQuantities"
+                },
+                {
+                    "id": "Cart.addItem"
+                },
+                {
+                    "id": "CartActionBean.setWorkingItemId"
+                },
+                {
+                    "id": "Cart.getAllCartItems"
+                },
+                {
+                    "id": "CartItem.setItem"
+                },
+                {
+                    "id": "Cart.getCartItems"
+                },
+                {
+                    "id": "Cart.getSubTotal"
+                },
+                {
+                    "id": "CartActionBean.getCart"
+                },
+                {
+                    "id": "Cart.lambda$getSubTotal$0"
+                },
+                {
+                    "id": "Cart.getNumberOfItems"
+                },
+                {
+                    "id": "CartActionBean.removeItemFromCart"
+                },
+                {
+                    "id": "CartItem.incrementQuantity"
+                },
+                {
+                    "id": "CartItem.setQuantity"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "Order.getBillState"
+                },
+                {
+                    "id": "Order.getShipAddress1"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "LineItem.getLineNumber"
+                },
+                {
+                    "id": "OrderService.lambda$getOrder$2"
+                },
+                {
+                    "id": "Order.getBillZip"
+                },
+                {
+                    "id": "Order.getCreditCard"
+                },
+                {
+                    "id": "Order.setShipCity"
+                },
+                {
+                    "id": "LineItem.setLineNumber"
+                },
+                {
+                    "id": "Order.setBillToFirstName"
+                },
+                {
+                    "id": "Order.setBillState"
+                },
+                {
+                    "id": "LineItem.setQuantity"
+                },
+                {
+                    "id": "OrderActionBean.listOrders"
+                },
+                {
+                    "id": "OrderService.getOrdersByUsername"
+                },
+                {
+                    "id": "LineItem.setItemId"
+                },
+                {
+                    "id": "Order.getLocale"
+                },
+                {
+                    "id": "OrderActionBean.setShippingAddressRequired"
+                },
+                {
+                    "id": "Order.getTotalPrice"
+                },
+                {
+                    "id": "Order.setShipZip"
+                },
+                {
+                    "id": "OrderActionBean.isShippingAddressRequired"
+                },
+                {
+                    "id": "Order.getBillAddress1"
+                },
+                {
+                    "id": "OrderActionBean.getOrder"
+                },
+                {
+                    "id": "Order.getBillAddress2"
+                },
+                {
+                    "id": "LineItem.setUnitPrice"
+                },
+                {
+                    "id": "Order.getLineItems"
+                },
+                {
+                    "id": "LineItem.setItem"
+                },
+                {
+                    "id": "Order.setShipCountry"
+                },
+                {
+                    "id": "LineItem.calculateTotal"
+                },
+                {
+                    "id": "Order.setBillZip"
+                },
+                {
+                    "id": "Order.setShipToFirstName"
+                },
+                {
+                    "id": "LineItem.getOrderId"
+                },
+                {
+                    "id": "OrderService.lambda$insertOrder$0"
+                },
+                {
+                    "id": "OrderService.lambda$insertOrder$1"
+                },
+                {
+                    "id": "Order.getBillCountry"
+                },
+                {
+                    "id": "Order.setShipState"
+                },
+                {
+                    "id": "Order.getShipState"
+                },
+                {
+                    "id": "OrderActionBean.newOrderForm"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "Order.getBillToLastName"
+                },
+                {
+                    "id": "OrderActionBean.viewOrder"
+                },
+                {
+                    "id": "LineItem.getTotal"
+                },
+                {
+                    "id": "Order.setBillCountry"
+                },
+                {
+                    "id": "OrderService.insertOrder"
+                },
+                {
+                    "id": "Order.getShipToFirstName"
+                },
+                {
+                    "id": "OrderActionBean.getCreditCardTypes"
+                },
+                {
+                    "id": "OrderActionBean.setConfirmed"
+                },
+                {
+                    "id": "Order.getCardType"
+                },
+                {
+                    "id": "Order.getCourier"
+                },
+                {
+                    "id": "Order.setShipAddress1"
+                },
+                {
+                    "id": "Order.setShipAddress2"
+                },
+                {
+                    "id": "Order.getBillCity"
+                },
+                {
+                    "id": "LineItem.getQuantity"
+                },
+                {
+                    "id": "Order.initOrder"
+                },
+                {
+                    "id": "Order.getBillToFirstName"
+                },
+                {
+                    "id": "OrderActionBean.setOrderId"
+                },
+                {
+                    "id": "Order.setBillAddress2"
+                },
+                {
+                    "id": "Order.setBillAddress1"
+                },
+                {
+                    "id": "OrderActionBean.isConfirmed"
+                },
+                {
+                    "id": "Order.setCardType"
+                },
+                {
+                    "id": "CartItem.calculateTotal"
+                },
+                {
+                    "id": "Order.getShipCountry"
+                },
+                {
+                    "id": "Order.getShipZip"
+                },
+                {
+                    "id": "Order.setLineItems"
+                },
+                {
+                    "id": "Order.setCourier"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "CatalogActionBean.viewMain"
+                },
+                {
+                    "id": "Product.setName"
+                },
+                {
+                    "id": "CatalogActionBean.setItemId"
+                },
+                {
+                    "id": "Product.getCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.getItem"
+                },
+                {
+                    "id": "Sequence.getNextId"
+                },
+                {
+                    "id": "Category.getName"
+                },
+                {
+                    "id": "CatalogService.getItem"
+                },
+                {
+                    "id": "_star_t_._star_t_"
+                },
+                {
+                    "id": "CatalogActionBean.getProductList"
+                },
+                {
+                    "id": "Product.getName"
+                },
+                {
+                    "id": "CatalogService.isItemInStock"
+                },
+                {
+                    "id": "CatalogService.getItemListByProduct"
+                },
+                {
+                    "id": "Product.getDescription"
+                },
+                {
+                    "id": "CatalogActionBean.viewProduct"
+                },
+                {
+                    "id": "CatalogActionBean.setProductId"
+                },
+                {
+                    "id": "CatalogService.getCategory"
+                },
+                {
+                    "id": "CatalogService.getProduct"
+                },
+                {
+                    "id": "CatalogActionBean.setKeyword"
+                },
+                {
+                    "id": "CatalogService.searchProductList"
+                },
+                {
+                    "id": "Product.getProductId"
+                },
+                {
+                    "id": "CatalogActionBean.getCategory"
+                },
+                {
+                    "id": "CatalogActionBean.getItemList"
+                },
+                {
+                    "id": "CatalogActionBean.searchProducts"
+                },
+                {
+                    "id": "CatalogActionBean.getProduct"
+                },
+                {
+                    "id": "CatalogActionBean.getKeyword"
+                },
+                {
+                    "id": "Product.setCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryId"
+                },
+                {
+                    "id": "Product.setProductId"
+                },
+                {
+                    "id": "CatalogActionBean.viewItem"
+                },
+                {
+                    "id": "CatalogActionBean.viewCategory"
+                }
+            ],
+            "microservice4": [
+                {
+                    "id": "Order.getExpiryDate"
+                },
+                {
+                    "id": "Order.setBillToLastName"
+                },
+                {
+                    "id": "Order.getOrderDate"
+                },
+                {
+                    "id": "LineItem.getUnitPrice"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setUsername"
+                },
+                {
+                    "id": "Order.setTotalPrice"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "LineItem.lambda$calculateTotal$0"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "LineItem.setOrderId"
+                },
+                {
+                    "id": "OrderActionBean.newOrder"
+                },
+                {
+                    "id": "OrderActionBean.getOrderList"
+                },
+                {
+                    "id": "Order.setBillCity"
+                },
+                {
+                    "id": "Order.setExpiryDate"
+                },
+                {
+                    "id": "Order.getShipAddress2"
+                }
+            ]
+        }
+    }
+}

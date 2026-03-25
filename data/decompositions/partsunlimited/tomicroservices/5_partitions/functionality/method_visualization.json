@@ -1,0 +1,4194 @@
+{
+    "1_structural_static": {
+        "decomposition": {
+            "microservice0": [
+                {
+                    "id": "MongoOrderRepository.saveOrder"
+                },
+                {
+                    "id": "MongoOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MongoShipmentRepository.addEvent"
+                },
+                {
+                    "id": "Order.getEvents"
+                },
+                {
+                    "id": "OrderEventInfo.getComments"
+                },
+                {
+                    "id": "OrderEventInfo.getDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "QuoteRepository.createQuote"
+                },
+                {
+                    "id": "RepositoryFactory$Repositories.RepositoryFactory$Repositories"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "DeliveryAddress.isNotEmpty"
+                },
+                {
+                    "id": "DeliveryAddress.validate"
+                },
+                {
+                    "id": "MongoDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MongoQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MongoQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MongoShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "QuoteDetails.QuoteDetails"
+                },
+                {
+                    "id": "ShipmentRepository.createShipment"
+                },
+                {
+                    "id": "ShipmentRepository.updateShipment"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CatalogController.removeCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.CatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItems"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.removeCatalogItem"
+                },
+                {
+                    "id": "OrderController.updateOrder"
+                },
+                {
+                    "id": "ShipmentDetails.ShipmentDetails"
+                },
+                {
+                    "id": "ShipmentRecord.ShipmentRecord"
+                },
+                {
+                    "id": "ShipmentRepository.addEvent"
+                },
+                {
+                    "id": "ShipmentRepository.getShipments"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "CatalogController.addCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItems"
+                },
+                {
+                    "id": "CatalogController.getRepository"
+                },
+                {
+                    "id": "CatalogController.upsertCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.getDescription"
+                },
+                {
+                    "id": "CatalogItem.getInventory"
+                },
+                {
+                    "id": "CatalogItem.getLeadTime"
+                },
+                {
+                    "id": "CatalogItem.getPrice"
+                },
+                {
+                    "id": "CatalogItem.getSkuNumber"
+                },
+                {
+                    "id": "CatalogItem.validate"
+                },
+                {
+                    "id": "CatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "DealerController.addDealer"
+                },
+                {
+                    "id": "DealerController.getDealer"
+                },
+                {
+                    "id": "DealerController.getRepository"
+                },
+                {
+                    "id": "DealerController.updateDealer"
+                },
+                {
+                    "id": "DealerInfo.getName"
+                },
+                {
+                    "id": "DealerInfo.setAddress"
+                },
+                {
+                    "id": "DealerInfo.setContact"
+                },
+                {
+                    "id": "DealerInfo.setEmail"
+                },
+                {
+                    "id": "DealerInfo.setName"
+                },
+                {
+                    "id": "DealerInfo.setPhone"
+                },
+                {
+                    "id": "DealerInfo.validate"
+                },
+                {
+                    "id": "DealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.compareSkuNumbers"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.reset"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MockDealersRepository.compareDealerNames"
+                },
+                {
+                    "id": "MockDealersRepository.getDealer"
+                },
+                {
+                    "id": "MockDealersRepository.getDealers"
+                },
+                {
+                    "id": "MockDealersRepository.removeDealer"
+                },
+                {
+                    "id": "MockDealersRepository.reset"
+                },
+                {
+                    "id": "MockDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockOrderRepository.createOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrderByQuoteId"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "MockOrderRepository.hasOrder"
+                },
+                {
+                    "id": "MockOrderRepository.reset"
+                },
+                {
+                    "id": "MockOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MockQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuotesByCustomerName"
+                },
+                {
+                    "id": "MockQuoteRepository.removeQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.reset"
+                },
+                {
+                    "id": "MockQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MockShipmentRepository.addEvent"
+                },
+                {
+                    "id": "MockShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipmentById"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipments"
+                },
+                {
+                    "id": "MockShipmentRepository.reset"
+                },
+                {
+                    "id": "MockShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.saveUpdates"
+                },
+                {
+                    "id": "Order.addEvent"
+                },
+                {
+                    "id": "Order.equals"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getQuoteId"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setQuoteId"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "OrderController.addEvent"
+                },
+                {
+                    "id": "OrderController.createOrder"
+                },
+                {
+                    "id": "OrderController.getOrderById"
+                },
+                {
+                    "id": "OrderController.getOrders"
+                },
+                {
+                    "id": "OrderController.getOrdersByDealerName"
+                },
+                {
+                    "id": "OrderController.getQuotes"
+                },
+                {
+                    "id": "OrderController.updateStatus"
+                },
+                {
+                    "id": "OrderDetails.OrderDetails"
+                },
+                {
+                    "id": "OrderEventInfo.setComments"
+                },
+                {
+                    "id": "OrderEventInfo.setDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "OrderRepository.updateOrder"
+                },
+                {
+                    "id": "OrderUpdateInfo.getEventInfo"
+                },
+                {
+                    "id": "OrderUpdateInfo.getStatus"
+                },
+                {
+                    "id": "OrderingConfiguration.getApplicationContext"
+                },
+                {
+                    "id": "OrderingInitializer.getApplicationPath"
+                },
+                {
+                    "id": "Quote.addQuoteItem"
+                },
+                {
+                    "id": "Quote.equals"
+                },
+                {
+                    "id": "Quote.getCustomerName"
+                },
+                {
+                    "id": "Quote.getDealerName"
+                },
+                {
+                    "id": "Quote.getQuoteId"
+                },
+                {
+                    "id": "Quote.setCustomerName"
+                },
+                {
+                    "id": "Quote.setDealerName"
+                },
+                {
+                    "id": "Quote.setQuoteId"
+                },
+                {
+                    "id": "Quote.validate"
+                },
+                {
+                    "id": "QuoteController.createQuote"
+                },
+                {
+                    "id": "QuoteController.deleteQuote"
+                },
+                {
+                    "id": "QuoteController.getQuoteById"
+                },
+                {
+                    "id": "QuoteController.getQuotesByCustomerName"
+                },
+                {
+                    "id": "QuoteController.getRepository"
+                },
+                {
+                    "id": "QuoteController.updateQuote"
+                },
+                {
+                    "id": "RepositoryFactory.getCatalogItemsRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getDealersRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getOrderRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getQuoteRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getShipmentRepository"
+                },
+                {
+                    "id": "RepositoryFactory.init"
+                },
+                {
+                    "id": "RepositoryFactory.reset"
+                },
+                {
+                    "id": "ShipmentController.addEvent"
+                },
+                {
+                    "id": "ShipmentController.createShipmentRecord"
+                },
+                {
+                    "id": "ShipmentController.getShipment"
+                },
+                {
+                    "id": "ShipmentController.getShipmentRepository"
+                },
+                {
+                    "id": "ShipmentController.getShipments"
+                },
+                {
+                    "id": "ShipmentController.updateShipment"
+                },
+                {
+                    "id": "ShipmentEventInfo.getComments"
+                },
+                {
+                    "id": "ShipmentEventInfo.getDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.setDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.validate"
+                },
+                {
+                    "id": "ShipmentRecord.addEvent"
+                },
+                {
+                    "id": "ShipmentRecord.getContactName"
+                },
+                {
+                    "id": "ShipmentRecord.getEvents"
+                },
+                {
+                    "id": "ShipmentRecord.getOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setAlternateContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.setContactName"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryAddress"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryDate"
+                },
+                {
+                    "id": "ShipmentRecord.setOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setPrimaryContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.validate"
+                },
+                {
+                    "id": "Utility.isNullOrEmpty"
+                },
+                {
+                    "id": "Utility.validateStringField"
+                }
+            ],
+            "microservice4": [
+                {
+                    "id": "Dealer.Dealer"
+                },
+                {
+                    "id": "DealerController.getDealers"
+                },
+                {
+                    "id": "DealerController.removeDealer"
+                },
+                {
+                    "id": "DealerInfo.getContact"
+                },
+                {
+                    "id": "MongoCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MongoShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.getShipments"
+                },
+                {
+                    "id": "Quote.Quote"
+                },
+                {
+                    "id": "QuoteRepository.updateQuote"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "Utility.validateStringField",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "CatalogController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "CatalogItem.getSkuNumber",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "CatalogItem.validate",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "CatalogItemsRepository.upsertCatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.getCatalogItem",
+                "target": "CatalogController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.getCatalogItems",
+                "target": "CatalogController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.getRepository",
+                "target": "RepositoryFactory.getCatalogItemsRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.removeCatalogItem",
+                "target": "CatalogController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.upsertCatalogItem",
+                "target": "CatalogController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.upsertCatalogItem",
+                "target": "CatalogItem.validate",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.upsertCatalogItem",
+                "target": "CatalogItemsRepository.upsertCatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "DealerController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "DealerInfo.getName",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "DealerInfo.validate",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.getDealer",
+                "target": "DealerController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.getDealers",
+                "target": "DealerController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.getRepository",
+                "target": "RepositoryFactory.getDealersRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.removeDealer",
+                "target": "DealerController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.updateDealer",
+                "target": "DealerController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.updateDealer",
+                "target": "DealerInfo.validate",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.updateDealer",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "Order.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "OrderEventInfo.setDate",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "OrderRepository.updateOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.createOrder",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.createOrder",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.createOrder",
+                "target": "OrderController.getQuotes",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.createOrder",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrderById",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrders",
+                "target": "RepositoryFactory.getOrderRepository",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrdersByDealerName",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrdersByDealerName",
+                "target": "OrderRepository.getOrdersByDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrdersByDealerName",
+                "target": "OrderRepository.getOrdersByStatus",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getQuotes",
+                "target": "RepositoryFactory.getQuoteRepository",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateOrder",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateOrder",
+                "target": "OrderRepository.updateOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateStatus",
+                "target": "OrderController.getOrders",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateStatus",
+                "target": "OrderEventInfo.setDate",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateStatus",
+                "target": "OrderUpdateInfo.getEventInfo",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateStatus",
+                "target": "OrderRepository.updateOrder",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "QuoteController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "Quote.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "Quote.validate",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "QuoteRepository.createQuote",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.deleteQuote",
+                "target": "QuoteController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.getQuoteById",
+                "target": "QuoteController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.getQuotesByCustomerName",
+                "target": "QuoteController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.getRepository",
+                "target": "RepositoryFactory.getQuoteRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.updateQuote",
+                "target": "QuoteController.getRepository",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.updateQuote",
+                "target": "Quote.validate",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.updateQuote",
+                "target": "QuoteRepository.updateQuote",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.addEvent",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.addEvent",
+                "target": "ShipmentEventInfo.setDate",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.addEvent",
+                "target": "ShipmentEventInfo.validate",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.addEvent",
+                "target": "ShipmentRepository.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "ShipmentRecord.validate",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "ShipmentRepository.createShipment",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipment",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipmentRepository",
+                "target": "RepositoryFactory.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipments",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipments",
+                "target": "ShipmentRepository.getShipments",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.updateShipment",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.updateShipment",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.updateShipment",
+                "target": "ShipmentRecord.validate",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.updateShipment",
+                "target": "ShipmentRepository.updateShipment",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getDescription",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getInventory",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getLeadTime",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getPrice",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getSkuNumber",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.validate",
+                "target": "Utility.validateStringField",
+                "weight": "1"
+            },
+            {
+                "source": "DealerInfo.validate",
+                "target": "Utility.validateStringField",
+                "weight": "1"
+            },
+            {
+                "source": "DeliveryAddress.validate",
+                "target": "DeliveryAddress.isNotEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Quote.Quote",
+                "target": "Quote.getCustomerName",
+                "weight": "1"
+            },
+            {
+                "source": "Quote.Quote",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "Quote.validate",
+                "target": "Utility.validateStringField",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRecord.ShipmentRecord",
+                "target": "ShipmentEventInfo.getComments",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRecord.ShipmentRecord",
+                "target": "ShipmentEventInfo.getDate",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRecord.validate",
+                "target": "DeliveryAddress.validate",
+                "weight": "1"
+            },
+            {
+                "source": "RepositoryFactory.init",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "1"
+            },
+            {
+                "source": "RepositoryFactory.init",
+                "target": "RepositoryFactory$Repositories.RepositoryFactory$Repositories",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.compareSkuNumbers",
+                "target": "CatalogItem.getSkuNumber",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.getCatalogItem",
+                "target": "CatalogItem.CatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.getCatalogItem",
+                "target": "MockCatalogItemsRepository.compareSkuNumbers",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.getCatalogItems",
+                "target": "CatalogItem.CatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.removeCatalogItem",
+                "target": "MockCatalogItemsRepository.compareSkuNumbers",
+                "weight": "1"
+            },
+            {
+                "source": "MockCatalogItemsRepository.upsertCatalogItem",
+                "target": "MockCatalogItemsRepository.compareSkuNumbers",
+                "weight": "1"
+            },
+            {
+                "source": "MockDealersRepository.compareDealerNames",
+                "target": "DealerInfo.getName",
+                "weight": "1"
+            },
+            {
+                "source": "MockDealersRepository.getDealer",
+                "target": "MockDealersRepository.compareDealerNames",
+                "weight": "1"
+            },
+            {
+                "source": "MockDealersRepository.removeDealer",
+                "target": "MockDealersRepository.compareDealerNames",
+                "weight": "1"
+            },
+            {
+                "source": "MockDealersRepository.upsertDealer",
+                "target": "DealerInfo.getName",
+                "weight": "1"
+            },
+            {
+                "source": "MockDealersRepository.upsertDealer",
+                "target": "MockDealersRepository.compareDealerNames",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "Order.setOrderDate",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "Order.setOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "Order.setQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "Order.setStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.createOrder",
+                "target": "MockOrderRepository.getOrderByQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrder",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrderByQuoteId",
+                "target": "Order.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrdersByDealerName",
+                "target": "Order.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrdersByDealerName",
+                "target": "Order.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrdersByDealerName",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.getOrdersByStatus",
+                "target": "Order.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.hasOrder",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.updateOrder",
+                "target": "MockOrderRepository.getOrder",
+                "weight": "2"
+            },
+            {
+                "source": "MockOrderRepository.updateOrder",
+                "target": "Order.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.updateOrder",
+                "target": "Order.setStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.updateOrder",
+                "target": "OrderUpdateInfo.getEventInfo",
+                "weight": "1"
+            },
+            {
+                "source": "MockOrderRepository.updateOrder",
+                "target": "OrderUpdateInfo.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "Quote.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "Quote.setQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.getQuote",
+                "target": "Quote.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.getQuotesByCustomerName",
+                "target": "Quote.getCustomerName",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.removeQuote",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.updateQuote",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.updateQuote",
+                "target": "Quote.setQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.updateQuote",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.updateQuote",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.addEvent",
+                "target": "ShipmentEventInfo.getComments",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.addEvent",
+                "target": "ShipmentEventInfo.getDate",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.addEvent",
+                "target": "ShipmentRecord.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.addEvent",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.createShipment",
+                "target": "ShipmentRecord.ShipmentRecord",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.createShipment",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.createShipment",
+                "target": "MockShipmentRepository.getShipmentById",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.getShipmentById",
+                "target": "ShipmentRecord.ShipmentRecord",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.getShipmentById",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.getShipments",
+                "target": "Order.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.getShipments",
+                "target": "ShipmentRecord.ShipmentRecord",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.getShipments",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.updateShipment",
+                "target": "ShipmentRecord.ShipmentRecord",
+                "weight": "1"
+            },
+            {
+                "source": "MockShipmentRepository.updateShipment",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.upsertCatalogItem",
+                "target": "CatalogItem.CatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.upsertDealer",
+                "target": "DealerInfo.getName",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.upsertDealer",
+                "target": "Dealer.Dealer",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.saveOrder",
+                "target": "Order.setOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.saveOrder",
+                "target": "OrderDetails.OrderDetails",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "MongoOrderRepository.saveOrder",
+                "weight": "2"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "Order.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "Order.setStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "OrderUpdateInfo.getEventInfo",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "OrderUpdateInfo.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "Quote.Quote",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "Quote.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "Quote.setQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "QuoteDetails.QuoteDetails",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "Quote.setQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "DealersRepository.upsertDealer",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "QuoteDetails.QuoteDetails",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.addEvent",
+                "target": "ShipmentRecord.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.addEvent",
+                "target": "MongoShipmentRepository.saveUpdates",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.createShipment",
+                "target": "ShipmentRecord.ShipmentRecord",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.createShipment",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.createShipment",
+                "target": "ShipmentDetails.ShipmentDetails",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.getShipments",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.getShipments",
+                "target": "OrderRepository.getOrdersByStatus",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.saveUpdates",
+                "target": "ShipmentDetails.ShipmentDetails",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.updateShipment",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.updateShipment",
+                "target": "MongoShipmentRepository.saveUpdates",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getDescription",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getInventory",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getLeadTime",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getPrice",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItem.CatalogItem",
+                "target": "CatalogItem.getSkuNumber",
+                "weight": "1"
+            },
+            {
+                "source": "Dealer.Dealer",
+                "target": "DealerInfo.getContact",
+                "weight": "1"
+            },
+            {
+                "source": "Dealer.Dealer",
+                "target": "DealerInfo.getName",
+                "weight": "1"
+            },
+            {
+                "source": "OrderDetails.OrderDetails",
+                "target": "Order.getEvents",
+                "weight": "1"
+            },
+            {
+                "source": "OrderDetails.OrderDetails",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderDetails.OrderDetails",
+                "target": "Order.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderDetails.OrderDetails",
+                "target": "Order.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteDetails.QuoteDetails",
+                "target": "Quote.getCustomerName",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteDetails.QuoteDetails",
+                "target": "Quote.getDealerName",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteDetails.QuoteDetails",
+                "target": "Quote.getQuoteId",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentDetails.ShipmentDetails",
+                "target": "ShipmentRecord.getContactName",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentDetails.ShipmentDetails",
+                "target": "ShipmentRecord.getEvents",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentDetails.ShipmentDetails",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "1"
+            }
+        ]
+    },
+    "3_business_use_cases": {
+        "decomposition": {
+            "Catalog USE CASE": [
+                {
+                    "id": "CATALOG USE CASE"
+                }
+            ],
+            "Dealer USE CASE": [
+                {
+                    "id": "DEALER USE CASE"
+                }
+            ],
+            "Order USE CASE": [
+                {
+                    "id": "ORDER USE CASE"
+                }
+            ],
+            "Quote USE CASE": [
+                {
+                    "id": "QUOTE USE CASE"
+                }
+            ],
+            "Shipment USE CASE": [
+                {
+                    "id": "SHIPMENT USE CASE"
+                }
+            ],
+            "microservice0": [
+                {
+                    "id": "MongoOrderRepository.saveOrder"
+                },
+                {
+                    "id": "MongoOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MongoShipmentRepository.addEvent"
+                },
+                {
+                    "id": "Order.getEvents"
+                },
+                {
+                    "id": "OrderEventInfo.getComments"
+                },
+                {
+                    "id": "OrderEventInfo.getDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "QuoteRepository.createQuote"
+                },
+                {
+                    "id": "RepositoryFactory$Repositories.RepositoryFactory$Repositories"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "DeliveryAddress.isNotEmpty"
+                },
+                {
+                    "id": "DeliveryAddress.validate"
+                },
+                {
+                    "id": "MongoDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MongoQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MongoQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MongoShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "QuoteDetails.QuoteDetails"
+                },
+                {
+                    "id": "ShipmentRepository.createShipment"
+                },
+                {
+                    "id": "ShipmentRepository.updateShipment"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CatalogController.removeCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.CatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItems"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.removeCatalogItem"
+                },
+                {
+                    "id": "OrderController.updateOrder"
+                },
+                {
+                    "id": "ShipmentDetails.ShipmentDetails"
+                },
+                {
+                    "id": "ShipmentRecord.ShipmentRecord"
+                },
+                {
+                    "id": "ShipmentRepository.addEvent"
+                },
+                {
+                    "id": "ShipmentRepository.getShipments"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "CatalogController.addCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItems"
+                },
+                {
+                    "id": "CatalogController.getRepository"
+                },
+                {
+                    "id": "CatalogController.upsertCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.getDescription"
+                },
+                {
+                    "id": "CatalogItem.getInventory"
+                },
+                {
+                    "id": "CatalogItem.getLeadTime"
+                },
+                {
+                    "id": "CatalogItem.getPrice"
+                },
+                {
+                    "id": "CatalogItem.getSkuNumber"
+                },
+                {
+                    "id": "CatalogItem.validate"
+                },
+                {
+                    "id": "CatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "DealerController.addDealer"
+                },
+                {
+                    "id": "DealerController.getDealer"
+                },
+                {
+                    "id": "DealerController.getRepository"
+                },
+                {
+                    "id": "DealerController.updateDealer"
+                },
+                {
+                    "id": "DealerInfo.getName"
+                },
+                {
+                    "id": "DealerInfo.setAddress"
+                },
+                {
+                    "id": "DealerInfo.setContact"
+                },
+                {
+                    "id": "DealerInfo.setEmail"
+                },
+                {
+                    "id": "DealerInfo.setName"
+                },
+                {
+                    "id": "DealerInfo.setPhone"
+                },
+                {
+                    "id": "DealerInfo.validate"
+                },
+                {
+                    "id": "DealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.compareSkuNumbers"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.reset"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MockDealersRepository.compareDealerNames"
+                },
+                {
+                    "id": "MockDealersRepository.getDealer"
+                },
+                {
+                    "id": "MockDealersRepository.getDealers"
+                },
+                {
+                    "id": "MockDealersRepository.removeDealer"
+                },
+                {
+                    "id": "MockDealersRepository.reset"
+                },
+                {
+                    "id": "MockDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockOrderRepository.createOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrderByQuoteId"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "MockOrderRepository.hasOrder"
+                },
+                {
+                    "id": "MockOrderRepository.reset"
+                },
+                {
+                    "id": "MockOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MockQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuotesByCustomerName"
+                },
+                {
+                    "id": "MockQuoteRepository.removeQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.reset"
+                },
+                {
+                    "id": "MockQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MockShipmentRepository.addEvent"
+                },
+                {
+                    "id": "MockShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipmentById"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipments"
+                },
+                {
+                    "id": "MockShipmentRepository.reset"
+                },
+                {
+                    "id": "MockShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.saveUpdates"
+                },
+                {
+                    "id": "Order.addEvent"
+                },
+                {
+                    "id": "Order.equals"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getQuoteId"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setQuoteId"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "OrderController.addEvent"
+                },
+                {
+                    "id": "OrderController.createOrder"
+                },
+                {
+                    "id": "OrderController.getOrderById"
+                },
+                {
+                    "id": "OrderController.getOrders"
+                },
+                {
+                    "id": "OrderController.getOrdersByDealerName"
+                },
+                {
+                    "id": "OrderController.getQuotes"
+                },
+                {
+                    "id": "OrderController.updateStatus"
+                },
+                {
+                    "id": "OrderDetails.OrderDetails"
+                },
+                {
+                    "id": "OrderEventInfo.setComments"
+                },
+                {
+                    "id": "OrderEventInfo.setDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "OrderRepository.updateOrder"
+                },
+                {
+                    "id": "OrderUpdateInfo.getEventInfo"
+                },
+                {
+                    "id": "OrderUpdateInfo.getStatus"
+                },
+                {
+                    "id": "OrderingConfiguration.getApplicationContext"
+                },
+                {
+                    "id": "OrderingInitializer.getApplicationPath"
+                },
+                {
+                    "id": "Quote.addQuoteItem"
+                },
+                {
+                    "id": "Quote.equals"
+                },
+                {
+                    "id": "Quote.getCustomerName"
+                },
+                {
+                    "id": "Quote.getDealerName"
+                },
+                {
+                    "id": "Quote.getQuoteId"
+                },
+                {
+                    "id": "Quote.setCustomerName"
+                },
+                {
+                    "id": "Quote.setDealerName"
+                },
+                {
+                    "id": "Quote.setQuoteId"
+                },
+                {
+                    "id": "Quote.validate"
+                },
+                {
+                    "id": "QuoteController.createQuote"
+                },
+                {
+                    "id": "QuoteController.deleteQuote"
+                },
+                {
+                    "id": "QuoteController.getQuoteById"
+                },
+                {
+                    "id": "QuoteController.getQuotesByCustomerName"
+                },
+                {
+                    "id": "QuoteController.getRepository"
+                },
+                {
+                    "id": "QuoteController.updateQuote"
+                },
+                {
+                    "id": "RepositoryFactory.getCatalogItemsRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getDealersRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getOrderRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getQuoteRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getShipmentRepository"
+                },
+                {
+                    "id": "RepositoryFactory.init"
+                },
+                {
+                    "id": "RepositoryFactory.reset"
+                },
+                {
+                    "id": "ShipmentController.addEvent"
+                },
+                {
+                    "id": "ShipmentController.createShipmentRecord"
+                },
+                {
+                    "id": "ShipmentController.getShipment"
+                },
+                {
+                    "id": "ShipmentController.getShipmentRepository"
+                },
+                {
+                    "id": "ShipmentController.getShipments"
+                },
+                {
+                    "id": "ShipmentController.updateShipment"
+                },
+                {
+                    "id": "ShipmentEventInfo.getComments"
+                },
+                {
+                    "id": "ShipmentEventInfo.getDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.setDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.validate"
+                },
+                {
+                    "id": "ShipmentRecord.addEvent"
+                },
+                {
+                    "id": "ShipmentRecord.getContactName"
+                },
+                {
+                    "id": "ShipmentRecord.getEvents"
+                },
+                {
+                    "id": "ShipmentRecord.getOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setAlternateContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.setContactName"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryAddress"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryDate"
+                },
+                {
+                    "id": "ShipmentRecord.setOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setPrimaryContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.validate"
+                },
+                {
+                    "id": "Utility.isNullOrEmpty"
+                },
+                {
+                    "id": "Utility.validateStringField"
+                }
+            ],
+            "microservice4": [
+                {
+                    "id": "Dealer.Dealer"
+                },
+                {
+                    "id": "DealerController.getDealers"
+                },
+                {
+                    "id": "DealerController.removeDealer"
+                },
+                {
+                    "id": "DealerInfo.getContact"
+                },
+                {
+                    "id": "MongoCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MongoShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.getShipments"
+                },
+                {
+                    "id": "Quote.Quote"
+                },
+                {
+                    "id": "QuoteRepository.updateQuote"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.addCatalogItem",
+                "weight": "11"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.getCatalogItem",
+                "weight": "4"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.getCatalogItems",
+                "weight": "2"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.getRepository",
+                "weight": "29"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.removeCatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogController.upsertCatalogItem",
+                "weight": "2"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.getDescription",
+                "weight": "7"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.getInventory",
+                "weight": "7"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.getLeadTime",
+                "weight": "7"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.getPrice",
+                "weight": "8"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.getSkuNumber",
+                "weight": "56"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "CatalogItem.validate",
+                "weight": "13"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.compareSkuNumbers",
+                "weight": "19"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.getCatalogItem",
+                "weight": "16"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.getCatalogItems",
+                "weight": "2"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.removeCatalogItem",
+                "weight": "1"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "MockCatalogItemsRepository.upsertCatalogItem",
+                "weight": "10"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "5"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "9"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "RepositoryFactory.getCatalogItemsRepository",
+                "weight": "34"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "RepositoryFactory.init",
+                "weight": "5"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "RepositoryFactory.reset",
+                "weight": "5"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "26"
+            },
+            {
+                "source": "CATALOG USE CASE",
+                "target": "Utility.validateStringField",
+                "weight": "26"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.addDealer",
+                "weight": "17"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.getDealer",
+                "weight": "3"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.getDealers",
+                "weight": "4"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.getRepository",
+                "weight": "40"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.removeDealer",
+                "weight": "1"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerController.updateDealer",
+                "weight": "4"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.getContact",
+                "weight": "1"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.getName",
+                "weight": "88"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.setAddress",
+                "weight": "19"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.setContact",
+                "weight": "20"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.setEmail",
+                "weight": "19"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.setName",
+                "weight": "21"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.setPhone",
+                "weight": "19"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealerInfo.validate",
+                "weight": "21"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "DealersRepositoryTest.createDealer",
+                "weight": "19"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.compareDealerNames",
+                "weight": "43"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.getDealer",
+                "weight": "20"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.getDealers",
+                "weight": "4"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.removeDealer",
+                "weight": "1"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "MockDealersRepository.upsertDealer",
+                "weight": "15"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "5"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "14"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "RepositoryFactory.getDealersRepository",
+                "weight": "45"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "RepositoryFactory.init",
+                "weight": "5"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "RepositoryFactory.reset",
+                "weight": "5"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "21"
+            },
+            {
+                "source": "DEALER USE CASE",
+                "target": "Utility.validateStringField",
+                "weight": "21"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "DealerInfo.getName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockCatalogItemsRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockDealersRepository.getDealer",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockDealersRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockDealersRepository.upsertDealer",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.createOrder",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.getOrder",
+                "weight": "15"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.getOrderByQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.getOrdersByDealerName",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.getOrdersByStatus",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.hasOrder",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockOrderRepository.updateOrder",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockQuoteRepository.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "17"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "MockQuoteRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.addEvent",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.equals",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getEvents",
+                "weight": "27"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getOrderId",
+                "weight": "38"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getQuoteId",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getStatus",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setOrderDate",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setOrderId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setStatus",
+                "weight": "9"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.addEvent",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.createOrder",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.getOrderById",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.getOrders",
+                "weight": "29"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.getOrdersByDealerName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.getQuotes",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderController.updateStatus",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderEventInfo.getComments",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderEventInfo.getDate",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderEventInfo.setComments",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderEventInfo.setDate",
+                "weight": "14"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderUpdateInfo.getEventInfo",
+                "weight": "8"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderUpdateInfo.getStatus",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "10"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.addQuoteItem",
+                "weight": "10"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.getDealerName",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.getQuoteId",
+                "weight": "22"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.setCustomerName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.setDealerName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.setQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Quote.validate",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "QuoteController.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "QuoteController.getRepository",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "QuoteRepositoryTest.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.getCatalogItemsRepository",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.getDealersRepository",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.getOrderRepository",
+                "weight": "34"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.getQuoteRepository",
+                "weight": "15"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.init",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "RepositoryFactory.reset",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "10"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Utility.validateStringField",
+                "weight": "10"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "DealerInfo.getName",
+                "weight": "10"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockCatalogItemsRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockDealersRepository.compareDealerNames",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockDealersRepository.getDealer",
+                "weight": "10"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockDealersRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockDealersRepository.upsertDealer",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.createQuote",
+                "weight": "9"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "16"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.getQuotesByCustomerName",
+                "weight": "3"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.removeQuote",
+                "weight": "2"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "MockQuoteRepository.updateQuote",
+                "weight": "2"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "8"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.addQuoteItem",
+                "weight": "18"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.equals",
+                "weight": "2"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.getCustomerName",
+                "weight": "3"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.getDealerName",
+                "weight": "15"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.getQuoteId",
+                "weight": "30"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.setCustomerName",
+                "weight": "9"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.setDealerName",
+                "weight": "9"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.setQuoteId",
+                "weight": "12"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Quote.validate",
+                "weight": "11"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.createQuote",
+                "weight": "9"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.deleteQuote",
+                "weight": "2"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.getQuoteById",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.getQuotesByCustomerName",
+                "weight": "3"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.getRepository",
+                "weight": "21"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteController.updateQuote",
+                "weight": "2"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "QuoteRepositoryTest.createQuote",
+                "weight": "9"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "RepositoryFactory.getCatalogItemsRepository",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "RepositoryFactory.getDealersRepository",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "RepositoryFactory.getQuoteRepository",
+                "weight": "26"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "RepositoryFactory.init",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "RepositoryFactory.reset",
+                "weight": "5"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "22"
+            },
+            {
+                "source": "QUOTE USE CASE",
+                "target": "Utility.validateStringField",
+                "weight": "22"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "DealerInfo.getName",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "DeliveryAddress.isNotEmpty",
+                "weight": "14"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "DeliveryAddress.validate",
+                "weight": "7"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockCatalogItemsRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockDealersRepository.getDealer",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockDealersRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockDealersRepository.upsertDealer",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.createOrder",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.getOrder",
+                "weight": "10"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.getOrderByQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.hasOrder",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockOrderRepository.updateOrder",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockQuoteRepository.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockQuoteRepository.getQuote",
+                "weight": "15"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockQuoteRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.createShipment",
+                "weight": "6"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.getShipmentById",
+                "weight": "17"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.getShipments",
+                "weight": "4"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "MockShipmentRepository.updateShipment",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.getOrderId",
+                "weight": "25"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.getStatus",
+                "weight": "3"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.setOrderDate",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.setOrderId",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.setQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Order.setStatus",
+                "weight": "6"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderController.createOrder",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderController.getOrders",
+                "weight": "7"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderController.getQuotes",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderController.updateStatus",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderEventInfo.setComments",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderEventInfo.setDate",
+                "weight": "2"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderUpdateInfo.getEventInfo",
+                "weight": "2"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderUpdateInfo.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderingConfiguration.getApplicationContext",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "OrderingInitializer.getApplicationPath",
+                "weight": "15"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.addQuoteItem",
+                "weight": "10"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.getDealerName",
+                "weight": "10"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.getQuoteId",
+                "weight": "20"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.setCustomerName",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.setDealerName",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.setQuoteId",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Quote.validate",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "QuoteController.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "QuoteController.getRepository",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "QuoteRepositoryTest.createQuote",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.getCatalogItemsRepository",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.getDealersRepository",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.getOrderRepository",
+                "weight": "12"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.getQuoteRepository",
+                "weight": "15"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.getShipmentRepository",
+                "weight": "29"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.init",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "RepositoryFactory.reset",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.createShipmentRecord",
+                "weight": "6"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.getShipment",
+                "weight": "4"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.getShipmentRepository",
+                "weight": "24"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.getShipments",
+                "weight": "4"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentController.updateShipment",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentEventInfo.getComments",
+                "weight": "3"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentEventInfo.getDate",
+                "weight": "2"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentEventInfo.setDate",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentEventInfo.validate",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.addEvent",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.getContactName",
+                "weight": "1"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.getEvents",
+                "weight": "12"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.getOrderId",
+                "weight": "43"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setAlternateContactPhone",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setContactName",
+                "weight": "6"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setDeliveryAddress",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setDeliveryDate",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setOrderId",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.setPrimaryContactPhone",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRecord.validate",
+                "weight": "7"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "ShipmentRepositoryTest.createShipmentRecord",
+                "weight": "5"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Utility.isNullOrEmpty",
+                "weight": "10"
+            },
+            {
+                "source": "SHIPMENT USE CASE",
+                "target": "Utility.validateStringField",
+                "weight": "10"
+            }
+        ]
+    },
+    "4_database_access": {
+        "decomposition": {
+            "CATALOG TABLE": [
+                {
+                    "id": "CATALOG TABLE"
+                }
+            ],
+            "DEALERS TABLE": [
+                {
+                    "id": "DEALERS TABLE"
+                }
+            ],
+            "ORDERS TABLE": [
+                {
+                    "id": "ORDERS TABLE"
+                }
+            ],
+            "QUOTES TABLE": [
+                {
+                    "id": "QUOTES TABLE"
+                }
+            ],
+            "SHIPMENTS TABLE": [
+                {
+                    "id": "SHIPMENTS TABLE"
+                }
+            ],
+            "microservice0": [
+                {
+                    "id": "MongoOrderRepository.saveOrder"
+                },
+                {
+                    "id": "MongoOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MongoShipmentRepository.addEvent"
+                },
+                {
+                    "id": "Order.getEvents"
+                },
+                {
+                    "id": "OrderEventInfo.getComments"
+                },
+                {
+                    "id": "OrderEventInfo.getDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "QuoteRepository.createQuote"
+                },
+                {
+                    "id": "RepositoryFactory$Repositories.RepositoryFactory$Repositories"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "DeliveryAddress.isNotEmpty"
+                },
+                {
+                    "id": "DeliveryAddress.validate"
+                },
+                {
+                    "id": "MongoDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MongoQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MongoQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MongoShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "QuoteDetails.QuoteDetails"
+                },
+                {
+                    "id": "ShipmentRepository.createShipment"
+                },
+                {
+                    "id": "ShipmentRepository.updateShipment"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CatalogController.removeCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.CatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItems"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.removeCatalogItem"
+                },
+                {
+                    "id": "OrderController.updateOrder"
+                },
+                {
+                    "id": "ShipmentDetails.ShipmentDetails"
+                },
+                {
+                    "id": "ShipmentRecord.ShipmentRecord"
+                },
+                {
+                    "id": "ShipmentRepository.addEvent"
+                },
+                {
+                    "id": "ShipmentRepository.getShipments"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "CatalogController.addCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItem"
+                },
+                {
+                    "id": "CatalogController.getCatalogItems"
+                },
+                {
+                    "id": "CatalogController.getRepository"
+                },
+                {
+                    "id": "CatalogController.upsertCatalogItem"
+                },
+                {
+                    "id": "CatalogItem.getDescription"
+                },
+                {
+                    "id": "CatalogItem.getInventory"
+                },
+                {
+                    "id": "CatalogItem.getLeadTime"
+                },
+                {
+                    "id": "CatalogItem.getPrice"
+                },
+                {
+                    "id": "CatalogItem.getSkuNumber"
+                },
+                {
+                    "id": "CatalogItem.validate"
+                },
+                {
+                    "id": "CatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "DealerController.addDealer"
+                },
+                {
+                    "id": "DealerController.getDealer"
+                },
+                {
+                    "id": "DealerController.getRepository"
+                },
+                {
+                    "id": "DealerController.updateDealer"
+                },
+                {
+                    "id": "DealerInfo.getName"
+                },
+                {
+                    "id": "DealerInfo.setAddress"
+                },
+                {
+                    "id": "DealerInfo.setContact"
+                },
+                {
+                    "id": "DealerInfo.setEmail"
+                },
+                {
+                    "id": "DealerInfo.setName"
+                },
+                {
+                    "id": "DealerInfo.setPhone"
+                },
+                {
+                    "id": "DealerInfo.validate"
+                },
+                {
+                    "id": "DealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.compareSkuNumbers"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.getCatalogItem"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.reset"
+                },
+                {
+                    "id": "MockCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MockDealersRepository.compareDealerNames"
+                },
+                {
+                    "id": "MockDealersRepository.getDealer"
+                },
+                {
+                    "id": "MockDealersRepository.getDealers"
+                },
+                {
+                    "id": "MockDealersRepository.removeDealer"
+                },
+                {
+                    "id": "MockDealersRepository.reset"
+                },
+                {
+                    "id": "MockDealersRepository.upsertDealer"
+                },
+                {
+                    "id": "MockOrderRepository.createOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrder"
+                },
+                {
+                    "id": "MockOrderRepository.getOrderByQuoteId"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByDealerName"
+                },
+                {
+                    "id": "MockOrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "MockOrderRepository.hasOrder"
+                },
+                {
+                    "id": "MockOrderRepository.reset"
+                },
+                {
+                    "id": "MockOrderRepository.updateOrder"
+                },
+                {
+                    "id": "MockQuoteRepository.createQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.getQuotesByCustomerName"
+                },
+                {
+                    "id": "MockQuoteRepository.removeQuote"
+                },
+                {
+                    "id": "MockQuoteRepository.reset"
+                },
+                {
+                    "id": "MockQuoteRepository.updateQuote"
+                },
+                {
+                    "id": "MockShipmentRepository.addEvent"
+                },
+                {
+                    "id": "MockShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipmentById"
+                },
+                {
+                    "id": "MockShipmentRepository.getShipments"
+                },
+                {
+                    "id": "MockShipmentRepository.reset"
+                },
+                {
+                    "id": "MockShipmentRepository.updateShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.saveUpdates"
+                },
+                {
+                    "id": "Order.addEvent"
+                },
+                {
+                    "id": "Order.equals"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getQuoteId"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setQuoteId"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "OrderController.addEvent"
+                },
+                {
+                    "id": "OrderController.createOrder"
+                },
+                {
+                    "id": "OrderController.getOrderById"
+                },
+                {
+                    "id": "OrderController.getOrders"
+                },
+                {
+                    "id": "OrderController.getOrdersByDealerName"
+                },
+                {
+                    "id": "OrderController.getQuotes"
+                },
+                {
+                    "id": "OrderController.updateStatus"
+                },
+                {
+                    "id": "OrderDetails.OrderDetails"
+                },
+                {
+                    "id": "OrderEventInfo.setComments"
+                },
+                {
+                    "id": "OrderEventInfo.setDate"
+                },
+                {
+                    "id": "OrderRepository.getOrdersByStatus"
+                },
+                {
+                    "id": "OrderRepository.updateOrder"
+                },
+                {
+                    "id": "OrderUpdateInfo.getEventInfo"
+                },
+                {
+                    "id": "OrderUpdateInfo.getStatus"
+                },
+                {
+                    "id": "OrderingConfiguration.getApplicationContext"
+                },
+                {
+                    "id": "OrderingInitializer.getApplicationPath"
+                },
+                {
+                    "id": "Quote.addQuoteItem"
+                },
+                {
+                    "id": "Quote.equals"
+                },
+                {
+                    "id": "Quote.getCustomerName"
+                },
+                {
+                    "id": "Quote.getDealerName"
+                },
+                {
+                    "id": "Quote.getQuoteId"
+                },
+                {
+                    "id": "Quote.setCustomerName"
+                },
+                {
+                    "id": "Quote.setDealerName"
+                },
+                {
+                    "id": "Quote.setQuoteId"
+                },
+                {
+                    "id": "Quote.validate"
+                },
+                {
+                    "id": "QuoteController.createQuote"
+                },
+                {
+                    "id": "QuoteController.deleteQuote"
+                },
+                {
+                    "id": "QuoteController.getQuoteById"
+                },
+                {
+                    "id": "QuoteController.getQuotesByCustomerName"
+                },
+                {
+                    "id": "QuoteController.getRepository"
+                },
+                {
+                    "id": "QuoteController.updateQuote"
+                },
+                {
+                    "id": "RepositoryFactory.getCatalogItemsRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getDealersRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getOrderRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getQuoteRepository"
+                },
+                {
+                    "id": "RepositoryFactory.getShipmentRepository"
+                },
+                {
+                    "id": "RepositoryFactory.init"
+                },
+                {
+                    "id": "RepositoryFactory.reset"
+                },
+                {
+                    "id": "ShipmentController.addEvent"
+                },
+                {
+                    "id": "ShipmentController.createShipmentRecord"
+                },
+                {
+                    "id": "ShipmentController.getShipment"
+                },
+                {
+                    "id": "ShipmentController.getShipmentRepository"
+                },
+                {
+                    "id": "ShipmentController.getShipments"
+                },
+                {
+                    "id": "ShipmentController.updateShipment"
+                },
+                {
+                    "id": "ShipmentEventInfo.getComments"
+                },
+                {
+                    "id": "ShipmentEventInfo.getDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.setDate"
+                },
+                {
+                    "id": "ShipmentEventInfo.validate"
+                },
+                {
+                    "id": "ShipmentRecord.addEvent"
+                },
+                {
+                    "id": "ShipmentRecord.getContactName"
+                },
+                {
+                    "id": "ShipmentRecord.getEvents"
+                },
+                {
+                    "id": "ShipmentRecord.getOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setAlternateContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.setContactName"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryAddress"
+                },
+                {
+                    "id": "ShipmentRecord.setDeliveryDate"
+                },
+                {
+                    "id": "ShipmentRecord.setOrderId"
+                },
+                {
+                    "id": "ShipmentRecord.setPrimaryContactPhone"
+                },
+                {
+                    "id": "ShipmentRecord.validate"
+                },
+                {
+                    "id": "Utility.isNullOrEmpty"
+                },
+                {
+                    "id": "Utility.validateStringField"
+                }
+            ],
+            "microservice4": [
+                {
+                    "id": "Dealer.Dealer"
+                },
+                {
+                    "id": "DealerController.getDealers"
+                },
+                {
+                    "id": "DealerController.removeDealer"
+                },
+                {
+                    "id": "DealerInfo.getContact"
+                },
+                {
+                    "id": "MongoCatalogItemsRepository.upsertCatalogItem"
+                },
+                {
+                    "id": "MongoShipmentRepository.createShipment"
+                },
+                {
+                    "id": "MongoShipmentRepository.getShipments"
+                },
+                {
+                    "id": "Quote.Quote"
+                },
+                {
+                    "id": "QuoteRepository.updateQuote"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "CatalogController.addCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.getCatalogItems",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.removeCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogController.upsertCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItemsRepository.findExistingCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItemsRepository.getCatalogItems",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItemsRepository.removeCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItemsRepository.reset",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogItemsRepository.upsertCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.findExistingCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.getCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.getCatalogItems",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.removeCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.reset",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoCatalogItemsRepository.upsertCatalogItem",
+                "target": "CATALOG TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.addDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.getDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.getDealers",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.removeDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealerController.updateDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealersRepository.getDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealersRepository.getDealers",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealersRepository.removeDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealersRepository.reset",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DealersRepository.upsertDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.createQuote",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MockQuoteRepository.updateQuote",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.getDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.getDealers",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.removeDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.reset",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoDealersRepository.upsertDealer",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "DEALERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.createOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.findExistingOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.getOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.getOrderByQuoteId",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.getOrdersByDealerName",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.getOrdersByStatus",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.hasOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.removeOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.reset",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.saveOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.updateOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.getShipments",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.addEvent",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.createOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.deleteOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.getOrdersByDealerName",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderController.updateStatus",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.createOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.findExistingOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.getOrderByQuoteId",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.getOrdersByDealerName",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.getOrdersByStatus",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.hasOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.removeOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.reset",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.saveOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderRepository.updateOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoOrderRepository.getOrdersByDealerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.createQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.findExistingQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.getQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.getQuoteIdsByDealerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.getQuotesByCustomerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.removeQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.reset",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoQuoteRepository.updateQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.createQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.deleteQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.getQuotesByCustomerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteController.updateQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.createQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.findExistingQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.getQuoteIdsByDealerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.getQuotesByCustomerName",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.removeQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.reset",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "QuoteRepository.updateQuote",
+                "target": "QUOTES TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.addEvent",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.createShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.findExistingShipmentDetails",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.getShipmentById",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.getShipments",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.removeShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.reset",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.saveUpdates",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "MongoShipmentRepository.updateShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.addEvent",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.createShipmentRecord",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.deleteShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getDeliveries",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.getShipments",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentController.updateShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.addEvent",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.createShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.findExistingShipmentDetails",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.getShipmentById",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.getShipments",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.removeShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.reset",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.saveUpdates",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ShipmentRepository.updateShipment",
+                "target": "SHIPMENTS TABLE",
+                "weight": "1"
+            }
+        ]
+    }
+}

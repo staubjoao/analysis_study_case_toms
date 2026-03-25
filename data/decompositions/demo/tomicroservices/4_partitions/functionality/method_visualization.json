@@ -1,0 +1,3253 @@
+{
+    "1_structural_static": {
+        "decomposition": {
+            "microservice0": [
+                {
+                    "id": "AckServlet.doPost"
+                },
+                {
+                    "id": "AckServlet.forwardToResult"
+                },
+                {
+                    "id": "AckServlet.putNumberInRequest"
+                },
+                {
+                    "id": "AckServlet.regularRecursive"
+                },
+                {
+                    "id": "AckServlet.tailRecursive"
+                },
+                {
+                    "id": "Ackermann.ack"
+                },
+                {
+                    "id": "Ackermann.calculate"
+                },
+                {
+                    "id": "AckermannIterative$$$Field.values"
+                },
+                {
+                    "id": "AckermannIterative$$.main"
+                },
+                {
+                    "id": "AckermannIterative$$.tail"
+                },
+                {
+                    "id": "Book.createEmpty"
+                },
+                {
+                    "id": "Book.equals"
+                },
+                {
+                    "id": "Book.isEmpty"
+                },
+                {
+                    "id": "Book.toOutputString"
+                },
+                {
+                    "id": "Borrower.createEmpty"
+                },
+                {
+                    "id": "Borrower.equals"
+                },
+                {
+                    "id": "Borrower.isEmpty"
+                },
+                {
+                    "id": "Borrower.toOutputString"
+                },
+                {
+                    "id": "Calculator.add"
+                },
+                {
+                    "id": "CheckUtils.IntParameterMustBePositive"
+                },
+                {
+                    "id": "CheckUtils.StringMustNotBeNullOrEmpty"
+                },
+                {
+                    "id": "DbServlet.doGet"
+                },
+                {
+                    "id": "FibServlet.doPost"
+                },
+                {
+                    "id": "FibServlet.forwardToResult"
+                },
+                {
+                    "id": "FibServlet.putNumberInRequest"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo1Calc"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo2Calc"
+                },
+                {
+                    "id": "Fibonacci.calculate"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo1"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo2"
+                },
+                {
+                    "id": "IPersistenceLayer.createLoan"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "LibraryBookListAvailableServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchByTitle"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchByName"
+                },
+                {
+                    "id": "LibraryLendServlet.doPost"
+                },
+                {
+                    "id": "LibraryLendServlet.getDateNow"
+                },
+                {
+                    "id": "LibraryRegisterBookServlet.doPost"
+                },
+                {
+                    "id": "LibraryRegisterBorrowerServlet.doPost"
+                },
+                {
+                    "id": "LibraryUtils.createLoan"
+                },
+                {
+                    "id": "LibraryUtils.lendBook"
+                },
+                {
+                    "id": "LibraryUtils.listAvailableBooks"
+                },
+                {
+                    "id": "LibraryUtils.registerBook"
+                },
+                {
+                    "id": "LibraryUtils.registerBorrower"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBook"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookByTitle"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerByName"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBook"
+                },
+                {
+                    "id": "Loan.isEmpty"
+                },
+                {
+                    "id": "LoginServlet.doPost"
+                },
+                {
+                    "id": "LoginUtils.isUserRegistered"
+                },
+                {
+                    "id": "MathServlet.doPost"
+                },
+                {
+                    "id": "MathServlet.forwardToResult"
+                },
+                {
+                    "id": "MathServlet.putNumberInRequest"
+                },
+                {
+                    "id": "MathServlet.setResultToSum"
+                },
+                {
+                    "id": "PersistenceLayer.areCredentialsValid"
+                },
+                {
+                    "id": "PersistenceLayer.bytesToHex"
+                },
+                {
+                    "id": "PersistenceLayer.cleanAndMigrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.cleanDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.configureFlyway"
+                },
+                {
+                    "id": "PersistenceLayer.createExtractor"
+                },
+                {
+                    "id": "PersistenceLayer.createHashedValueFromPassword"
+                },
+                {
+                    "id": "PersistenceLayer.createLoan"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.listAvailableBooks"
+                },
+                {
+                    "id": "PersistenceLayer.listBooks"
+                },
+                {
+                    "id": "PersistenceLayer.migrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.prepareStatementWithKeys"
+                },
+                {
+                    "id": "PersistenceLayer.runQuery"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBook"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowerDataByName"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.throwingFunctionWrapper"
+                },
+                {
+                    "id": "PersistenceLayer.updateUserWithPassword"
+                },
+                {
+                    "id": "RegisterServlet.doPost"
+                },
+                {
+                    "id": "RegisterServlet.forwardToResult"
+                },
+                {
+                    "id": "RegistrationUtils.isPasswordGood"
+                },
+                {
+                    "id": "RegistrationUtils.isUserInDatabase"
+                },
+                {
+                    "id": "ServletUtils.forwardToRestfulResult"
+                },
+                {
+                    "id": "ServletUtils.forwardToResult"
+                },
+                {
+                    "id": "SqlData.addParameter"
+                },
+                {
+                    "id": "SqlData.applyParametersToPreparedStatement"
+                },
+                {
+                    "id": "SqlData.generateParams"
+                },
+                {
+                    "id": "StringUtils.escapeForJson"
+                },
+                {
+                    "id": "StringUtils.makeNotNullable"
+                },
+                {
+                    "id": "TailRecursive$$.epsilon"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryUtils.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerById"
+                },
+                {
+                    "id": "PasswordResult.PasswordResult"
+                },
+                {
+                    "id": "PasswordResult.createDefault"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBorrowers"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowersById"
+                },
+                {
+                    "id": "RegistrationResult.RegistrationResult"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CheckUtils.mustBeTrueAtThisPoint"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBorrower"
+                },
+                {
+                    "id": "Loan.Loan"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewUser"
+                },
+                {
+                    "id": "PersistenceLayer.searchForUserByName"
+                },
+                {
+                    "id": "RegistrationResult.toPrettyString"
+                },
+                {
+                    "id": "RegistrationUtils.processRegistration"
+                },
+                {
+                    "id": "RegistrationUtils.saveToDatabase"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "FibServlet.defaultRecursiveCalculation"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookById"
+                },
+                {
+                    "id": "Loan.createEmpty"
+                },
+                {
+                    "id": "Loan.equals"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBooks"
+                },
+                {
+                    "id": "PersistenceLayer.searchBooksById"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "LoginServlet.doPost",
+                "target": "LoginUtils.isUserRegistered",
+                "weight": "1"
+            },
+            {
+                "source": "LoginServlet.doPost",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "LoginServlet.doPost",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LoginUtils.isUserRegistered",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.doPost",
+                "target": "RegisterServlet.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.doPost",
+                "target": "RegistrationUtils.processRegistration",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.doPost",
+                "target": "RegistrationResult.toPrettyString",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.doPost",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.forwardToResult",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.isPasswordGood",
+                "target": "PasswordResult.PasswordResult",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.isPasswordGood",
+                "target": "PasswordResult.createDefault",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.isPasswordGood",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.isPasswordGood",
+                "target": "CheckUtils.mustBeTrueAtThisPoint",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "RegistrationUtils.isPasswordGood",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "RegistrationUtils.isUserInDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "RegistrationUtils.saveToDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "RegistrationResult.RegistrationResult",
+                "weight": "2"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PasswordResult.createDefault",
+                "target": "PasswordResult.PasswordResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListAvailableServlet.doGet",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListAvailableServlet.doGet",
+                "target": "LibraryUtils.listAvailableBooks",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "LibraryBookListSearchServlet.listAllBooks",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "LibraryBookListSearchServlet.searchById",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "LibraryBookListSearchServlet.searchByTitle",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.listAllBooks",
+                "target": "LibraryUtils.listAllBooks",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchById",
+                "target": "LibraryUtils.searchForBookById",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchById",
+                "target": "Book.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchById",
+                "target": "Book.toOutputString",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchByTitle",
+                "target": "LibraryUtils.searchForBookByTitle",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchByTitle",
+                "target": "Book.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchByTitle",
+                "target": "Book.toOutputString",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "LibraryBorrowerListSearchServlet.listAllBorrowers",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "LibraryBorrowerListSearchServlet.searchById",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "LibraryBorrowerListSearchServlet.searchByName",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.listAllBorrowers",
+                "target": "LibraryUtils.listAllBorrowers",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchById",
+                "target": "LibraryUtils.searchForBorrowerById",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchById",
+                "target": "Borrower.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchById",
+                "target": "Borrower.toOutputString",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchByName",
+                "target": "LibraryUtils.searchForBorrowerByName",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchByName",
+                "target": "Borrower.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchByName",
+                "target": "Borrower.toOutputString",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "LibraryLendServlet.getDateNow",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "LibraryUtils.lendBook",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBookServlet.doPost",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBookServlet.doPost",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBookServlet.doPost",
+                "target": "LibraryUtils.registerBook",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBorrowerServlet.doPost",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBorrowerServlet.doPost",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBorrowerServlet.doPost",
+                "target": "LibraryUtils.registerBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.createLoan",
+                "target": "IPersistenceLayer.createLoan",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "LibraryUtils.createLoan",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "LibraryUtils.searchForLoanByBook",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "Loan.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "LibraryUtils.searchForBookByTitle",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "LibraryUtils.searchForBorrowerByName",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBook",
+                "target": "LibraryUtils.saveNewBook",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBook",
+                "target": "LibraryUtils.searchForBookByTitle",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBook",
+                "target": "Book.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBorrower",
+                "target": "LibraryUtils.saveNewBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBorrower",
+                "target": "LibraryUtils.searchForBorrowerByName",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBorrower",
+                "target": "Borrower.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBorrower",
+                "target": "Borrower.equals",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookById",
+                "target": "Book.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookById",
+                "target": "Book.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookByTitle",
+                "target": "Book.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookByTitle",
+                "target": "Book.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBorrowerById",
+                "target": "Borrower.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBorrowerById",
+                "target": "Borrower.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBorrowerByName",
+                "target": "Borrower.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBook",
+                "target": "Loan.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBook",
+                "target": "IPersistenceLayer.searchForLoanByBook",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBorrower",
+                "target": "IPersistenceLayer.searchForLoanByBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "Book.isEmpty",
+                "target": "Book.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Book.isEmpty",
+                "target": "Book.equals",
+                "weight": "1"
+            },
+            {
+                "source": "Book.toOutputString",
+                "target": "StringUtils.escapeForJson",
+                "weight": "1"
+            },
+            {
+                "source": "Borrower.isEmpty",
+                "target": "Borrower.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Borrower.isEmpty",
+                "target": "Borrower.equals",
+                "weight": "1"
+            },
+            {
+                "source": "Borrower.toOutputString",
+                "target": "StringUtils.escapeForJson",
+                "weight": "1"
+            },
+            {
+                "source": "Loan.createEmpty",
+                "target": "Book.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Loan.createEmpty",
+                "target": "Borrower.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Loan.createEmpty",
+                "target": "Loan.Loan",
+                "weight": "1"
+            },
+            {
+                "source": "Loan.isEmpty",
+                "target": "Loan.createEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "Loan.isEmpty",
+                "target": "Loan.equals",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.doPost",
+                "target": "AckServlet.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.doPost",
+                "target": "AckServlet.putNumberInRequest",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.doPost",
+                "target": "AckServlet.regularRecursive",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.doPost",
+                "target": "AckServlet.tailRecursive",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.forwardToResult",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "AckServlet.regularRecursive",
+                "target": "Ackermann.calculate",
+                "weight": "1"
+            },
+            {
+                "source": "Ackermann.calculate",
+                "target": "Ackermann.ack",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.defaultRecursiveCalculation",
+                "target": "Fibonacci.calculate",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.doPost",
+                "target": "FibServlet.defaultRecursiveCalculation",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.doPost",
+                "target": "FibServlet.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.doPost",
+                "target": "FibServlet.putNumberInRequest",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.doPost",
+                "target": "FibServlet.tailRecursiveAlgo1Calc",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.doPost",
+                "target": "FibServlet.tailRecursiveAlgo2Calc",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.forwardToResult",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.tailRecursiveAlgo1Calc",
+                "target": "FibonacciIterative.fibAlgo1",
+                "weight": "1"
+            },
+            {
+                "source": "FibServlet.tailRecursiveAlgo2Calc",
+                "target": "FibonacciIterative.fibAlgo2",
+                "weight": "1"
+            },
+            {
+                "source": "MathServlet.doPost",
+                "target": "MathServlet.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "MathServlet.doPost",
+                "target": "MathServlet.putNumberInRequest",
+                "weight": "1"
+            },
+            {
+                "source": "MathServlet.doPost",
+                "target": "MathServlet.setResultToSum",
+                "weight": "1"
+            },
+            {
+                "source": "MathServlet.forwardToResult",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "1"
+            },
+            {
+                "source": "MathServlet.setResultToSum",
+                "target": "Calculator.add",
+                "weight": "1"
+            },
+            {
+                "source": "DbServlet.doGet",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "DbServlet.doGet",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.areCredentialsValid",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.areCredentialsValid",
+                "target": "PersistenceLayer.createHashedValueFromPassword",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.areCredentialsValid",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "PersistenceLayer.cleanDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "PersistenceLayer.migrateDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanDatabase",
+                "target": "PersistenceLayer.configureFlyway",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.createExtractor",
+                "target": "PersistenceLayer.throwingFunctionWrapper",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.createHashedValueFromPassword",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.createHashedValueFromPassword",
+                "target": "PersistenceLayer.bytesToHex",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.createLoan",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeInsertOnPreparedStatement",
+                "target": "SqlData.applyParametersToPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeInsertTemplate",
+                "target": "PersistenceLayer.executeInsertOnPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeInsertTemplate",
+                "target": "PersistenceLayer.prepareStatementWithKeys",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeUpdateOnPreparedStatement",
+                "target": "SqlData.applyParametersToPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeUpdateTemplate",
+                "target": "PersistenceLayer.executeUpdateOnPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.executeUpdateTemplate",
+                "target": "PersistenceLayer.prepareStatementWithKeys",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAllBooks",
+                "target": "PersistenceLayer.listBooks",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAllBorrowers",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAllBorrowers",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAvailableBooks",
+                "target": "PersistenceLayer.listBooks",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listBooks",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listBooks",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.migrateDatabase",
+                "target": "PersistenceLayer.configureFlyway",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.runQuery",
+                "target": "SqlData.applyParametersToPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBook",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBook",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBorrower",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBorrower",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewUser",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewUser",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBooksById",
+                "target": "CheckUtils.IntParameterMustBePositive",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBooksById",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBooksById",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowerDataByName",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowerDataByName",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowerDataByName",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowersById",
+                "target": "CheckUtils.IntParameterMustBePositive",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowersById",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowersById",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBook",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBook",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBorrower",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBorrower",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForUserByName",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForUserByName",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForUserByName",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.updateUserWithPassword",
+                "target": "CheckUtils.IntParameterMustBePositive",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.updateUserWithPassword",
+                "target": "PersistenceLayer.createHashedValueFromPassword",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.updateUserWithPassword",
+                "target": "PersistenceLayer.executeUpdateTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "SqlData.generateParams",
+                "target": "SqlData.addParameter",
+                "weight": "1"
+            }
+        ]
+    },
+    "3_business_use_cases": {
+        "decomposition": {
+            "Authentication USE CASE": [
+                {
+                    "id": "AUTHENTICATION USE CASE"
+                }
+            ],
+            "Library USE CASE": [
+                {
+                    "id": "LIBRARY USE CASE"
+                }
+            ],
+            "Mathematics USE CASE": [
+                {
+                    "id": "MATHEMATICS USE CASE"
+                }
+            ],
+            "Persistence USE CASE": [
+                {
+                    "id": "PERSISTENCE USE CASE"
+                }
+            ],
+            "microservice0": [
+                {
+                    "id": "AckServlet.doPost"
+                },
+                {
+                    "id": "AckServlet.forwardToResult"
+                },
+                {
+                    "id": "AckServlet.putNumberInRequest"
+                },
+                {
+                    "id": "AckServlet.regularRecursive"
+                },
+                {
+                    "id": "AckServlet.tailRecursive"
+                },
+                {
+                    "id": "Ackermann.ack"
+                },
+                {
+                    "id": "Ackermann.calculate"
+                },
+                {
+                    "id": "AckermannIterative$$$Field.values"
+                },
+                {
+                    "id": "AckermannIterative$$.main"
+                },
+                {
+                    "id": "AckermannIterative$$.tail"
+                },
+                {
+                    "id": "Book.createEmpty"
+                },
+                {
+                    "id": "Book.equals"
+                },
+                {
+                    "id": "Book.isEmpty"
+                },
+                {
+                    "id": "Book.toOutputString"
+                },
+                {
+                    "id": "Borrower.createEmpty"
+                },
+                {
+                    "id": "Borrower.equals"
+                },
+                {
+                    "id": "Borrower.isEmpty"
+                },
+                {
+                    "id": "Borrower.toOutputString"
+                },
+                {
+                    "id": "Calculator.add"
+                },
+                {
+                    "id": "CheckUtils.IntParameterMustBePositive"
+                },
+                {
+                    "id": "CheckUtils.StringMustNotBeNullOrEmpty"
+                },
+                {
+                    "id": "DbServlet.doGet"
+                },
+                {
+                    "id": "FibServlet.doPost"
+                },
+                {
+                    "id": "FibServlet.forwardToResult"
+                },
+                {
+                    "id": "FibServlet.putNumberInRequest"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo1Calc"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo2Calc"
+                },
+                {
+                    "id": "Fibonacci.calculate"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo1"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo2"
+                },
+                {
+                    "id": "IPersistenceLayer.createLoan"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "LibraryBookListAvailableServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchByTitle"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchByName"
+                },
+                {
+                    "id": "LibraryLendServlet.doPost"
+                },
+                {
+                    "id": "LibraryLendServlet.getDateNow"
+                },
+                {
+                    "id": "LibraryRegisterBookServlet.doPost"
+                },
+                {
+                    "id": "LibraryRegisterBorrowerServlet.doPost"
+                },
+                {
+                    "id": "LibraryUtils.createLoan"
+                },
+                {
+                    "id": "LibraryUtils.lendBook"
+                },
+                {
+                    "id": "LibraryUtils.listAvailableBooks"
+                },
+                {
+                    "id": "LibraryUtils.registerBook"
+                },
+                {
+                    "id": "LibraryUtils.registerBorrower"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBook"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookByTitle"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerByName"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBook"
+                },
+                {
+                    "id": "Loan.isEmpty"
+                },
+                {
+                    "id": "LoginServlet.doPost"
+                },
+                {
+                    "id": "LoginUtils.isUserRegistered"
+                },
+                {
+                    "id": "MathServlet.doPost"
+                },
+                {
+                    "id": "MathServlet.forwardToResult"
+                },
+                {
+                    "id": "MathServlet.putNumberInRequest"
+                },
+                {
+                    "id": "MathServlet.setResultToSum"
+                },
+                {
+                    "id": "PersistenceLayer.areCredentialsValid"
+                },
+                {
+                    "id": "PersistenceLayer.bytesToHex"
+                },
+                {
+                    "id": "PersistenceLayer.cleanAndMigrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.cleanDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.configureFlyway"
+                },
+                {
+                    "id": "PersistenceLayer.createExtractor"
+                },
+                {
+                    "id": "PersistenceLayer.createHashedValueFromPassword"
+                },
+                {
+                    "id": "PersistenceLayer.createLoan"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.listAvailableBooks"
+                },
+                {
+                    "id": "PersistenceLayer.listBooks"
+                },
+                {
+                    "id": "PersistenceLayer.migrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.prepareStatementWithKeys"
+                },
+                {
+                    "id": "PersistenceLayer.runQuery"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBook"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowerDataByName"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.throwingFunctionWrapper"
+                },
+                {
+                    "id": "PersistenceLayer.updateUserWithPassword"
+                },
+                {
+                    "id": "RegisterServlet.doPost"
+                },
+                {
+                    "id": "RegisterServlet.forwardToResult"
+                },
+                {
+                    "id": "RegistrationUtils.isPasswordGood"
+                },
+                {
+                    "id": "RegistrationUtils.isUserInDatabase"
+                },
+                {
+                    "id": "ServletUtils.forwardToRestfulResult"
+                },
+                {
+                    "id": "ServletUtils.forwardToResult"
+                },
+                {
+                    "id": "SqlData.addParameter"
+                },
+                {
+                    "id": "SqlData.applyParametersToPreparedStatement"
+                },
+                {
+                    "id": "SqlData.generateParams"
+                },
+                {
+                    "id": "StringUtils.escapeForJson"
+                },
+                {
+                    "id": "StringUtils.makeNotNullable"
+                },
+                {
+                    "id": "TailRecursive$$.epsilon"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryUtils.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerById"
+                },
+                {
+                    "id": "PasswordResult.PasswordResult"
+                },
+                {
+                    "id": "PasswordResult.createDefault"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBorrowers"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowersById"
+                },
+                {
+                    "id": "RegistrationResult.RegistrationResult"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CheckUtils.mustBeTrueAtThisPoint"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBorrower"
+                },
+                {
+                    "id": "Loan.Loan"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewUser"
+                },
+                {
+                    "id": "PersistenceLayer.searchForUserByName"
+                },
+                {
+                    "id": "RegistrationResult.toPrettyString"
+                },
+                {
+                    "id": "RegistrationUtils.processRegistration"
+                },
+                {
+                    "id": "RegistrationUtils.saveToDatabase"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "FibServlet.defaultRecursiveCalculation"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookById"
+                },
+                {
+                    "id": "Loan.createEmpty"
+                },
+                {
+                    "id": "Loan.equals"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBooks"
+                },
+                {
+                    "id": "PersistenceLayer.searchBooksById"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "CheckUtils.IntParameterMustBePositive",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "8"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "CheckUtils.mustBeTrueAtThisPoint",
+                "weight": "3"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "LoginServlet.doPost",
+                "weight": "3"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "LoginUtils.isUserRegistered",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.areCredentialsValid",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.bytesToHex",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.createHashedValueFromPassword",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.executeInsertOnPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.executeUpdateOnPreparedStatement",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.executeUpdateTemplate",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.prepareStatementWithKeys",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.saveNewUser",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.searchForUserByName",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.throwingFunctionWrapper",
+                "weight": "2"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "PersistenceLayer.updateUserWithPassword",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegisterServlet.doPost",
+                "weight": "4"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegisterServlet.forwardToResult",
+                "weight": "4"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegistrationResult.toPrettyString",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegistrationUtils.isPasswordGood",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegistrationUtils.isUserInDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegistrationUtils.processRegistration",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "RegistrationUtils.saveToDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "7"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "SqlData.addParameter",
+                "weight": "6"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "SqlData.applyParametersToPreparedStatement",
+                "weight": "4"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "SqlData.generateParams",
+                "weight": "4"
+            },
+            {
+                "source": "AUTHENTICATION USE CASE",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "14"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Book.createEmpty",
+                "weight": "22"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Book.equals",
+                "weight": "14"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Book.isEmpty",
+                "weight": "13"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Book.toOutputString",
+                "weight": "7"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Borrower.createEmpty",
+                "weight": "20"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Borrower.equals",
+                "weight": "11"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Borrower.isEmpty",
+                "weight": "9"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Borrower.toOutputString",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "CheckUtils.IntParameterMustBePositive",
+                "weight": "6"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "CheckUtils.StringMustNotBeNullOrEmpty",
+                "weight": "11"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBookListAvailableServlet.doGet",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBookListSearchServlet.doGet",
+                "weight": "9"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBookListSearchServlet.listAllBooks",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBookListSearchServlet.searchById",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBookListSearchServlet.searchByTitle",
+                "weight": "2"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBorrowerListSearchServlet.doGet",
+                "weight": "11"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBorrowerListSearchServlet.listAllBorrowers",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBorrowerListSearchServlet.searchById",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryBorrowerListSearchServlet.searchByName",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryLendServlet.doPost",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryLendServlet.getDateNow",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryRegisterBookServlet.doPost",
+                "weight": "2"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryRegisterBorrowerServlet.doPost",
+                "weight": "2"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.createLoan",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.lendBook",
+                "weight": "2"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.listAllBooks",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.listAllBorrowers",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.listAvailableBooks",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.registerBook",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.registerBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.saveNewBook",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.saveNewBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.searchForBookById",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.searchForBookByTitle",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.searchForBorrowerById",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.searchForBorrowerByName",
+                "weight": "5"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "LibraryUtils.searchForLoanByBook",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Loan.createEmpty",
+                "weight": "2"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Loan.equals",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "Loan.isEmpty",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.createExtractor",
+                "weight": "26"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.createLoan",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.executeInsertOnPreparedStatement",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.executeInsertTemplate",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.listAllBooks",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.listAllBorrowers",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.listAvailableBooks",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.listBooks",
+                "weight": "7"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.prepareStatementWithKeys",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.runQuery",
+                "weight": "26"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.saveNewBook",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.saveNewBorrower",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.searchBooksById",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.searchBooksByTitle",
+                "weight": "4"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.searchBorrowerDataByName",
+                "weight": "5"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.searchBorrowersById",
+                "weight": "3"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.searchForLoanByBook",
+                "weight": "1"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "PersistenceLayer.throwingFunctionWrapper",
+                "weight": "26"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "24"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "7"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "SqlData.addParameter",
+                "weight": "21"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "SqlData.applyParametersToPreparedStatement",
+                "weight": "29"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "SqlData.generateParams",
+                "weight": "19"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "StringUtils.escapeForJson",
+                "weight": "11"
+            },
+            {
+                "source": "LIBRARY USE CASE",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "61"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckServlet.doPost",
+                "weight": "2"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckServlet.forwardToResult",
+                "weight": "2"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckServlet.putNumberInRequest",
+                "weight": "4"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckServlet.regularRecursive",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckServlet.tailRecursive",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "Ackermann.ack",
+                "weight": "44"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "Ackermann.calculate",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckermannIterative$$$Field.values",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckermannIterative$$.main",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "AckermannIterative$$.tail",
+                "weight": "2"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "Calculator.add",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.defaultRecursiveCalculation",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.doPost",
+                "weight": "3"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.forwardToResult",
+                "weight": "3"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.putNumberInRequest",
+                "weight": "3"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.tailRecursiveAlgo1Calc",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibServlet.tailRecursiveAlgo2Calc",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "Fibonacci.calculate",
+                "weight": "3"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibonacciIterative.fibAlgo1",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "FibonacciIterative.fibAlgo2",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "MathServlet.doPost",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "MathServlet.forwardToResult",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "MathServlet.putNumberInRequest",
+                "weight": "2"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "MathServlet.setResultToSum",
+                "weight": "1"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "ServletUtils.forwardToRestfulResult",
+                "weight": "6"
+            },
+            {
+                "source": "MATHEMATICS USE CASE",
+                "target": "TailRecursive$$.epsilon",
+                "weight": "1"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "DbServlet.doGet",
+                "weight": "3"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "PersistenceLayer.cleanAndMigrateDatabase",
+                "weight": "1"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "PersistenceLayer.cleanDatabase",
+                "weight": "2"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "PersistenceLayer.configureFlyway",
+                "weight": "4"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "PersistenceLayer.migrateDatabase",
+                "weight": "2"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "ServletUtils.forwardToResult",
+                "weight": "3"
+            },
+            {
+                "source": "PERSISTENCE USE CASE",
+                "target": "StringUtils.makeNotNullable",
+                "weight": "3"
+            }
+        ]
+    },
+    "4_database_access": {
+        "decomposition": {
+            "BOOK TABLE": [
+                {
+                    "id": "BOOK TABLE"
+                }
+            ],
+            "BORROWER TABLE": [
+                {
+                    "id": "BORROWER TABLE"
+                }
+            ],
+            "LOAN TABLE": [
+                {
+                    "id": "LOAN TABLE"
+                }
+            ],
+            "USER TABLE": [
+                {
+                    "id": "USER TABLE"
+                }
+            ],
+            "microservice0": [
+                {
+                    "id": "AckServlet.doPost"
+                },
+                {
+                    "id": "AckServlet.forwardToResult"
+                },
+                {
+                    "id": "AckServlet.putNumberInRequest"
+                },
+                {
+                    "id": "AckServlet.regularRecursive"
+                },
+                {
+                    "id": "AckServlet.tailRecursive"
+                },
+                {
+                    "id": "Ackermann.ack"
+                },
+                {
+                    "id": "Ackermann.calculate"
+                },
+                {
+                    "id": "AckermannIterative$$$Field.values"
+                },
+                {
+                    "id": "AckermannIterative$$.main"
+                },
+                {
+                    "id": "AckermannIterative$$.tail"
+                },
+                {
+                    "id": "Book.createEmpty"
+                },
+                {
+                    "id": "Book.equals"
+                },
+                {
+                    "id": "Book.isEmpty"
+                },
+                {
+                    "id": "Book.toOutputString"
+                },
+                {
+                    "id": "Borrower.createEmpty"
+                },
+                {
+                    "id": "Borrower.equals"
+                },
+                {
+                    "id": "Borrower.isEmpty"
+                },
+                {
+                    "id": "Borrower.toOutputString"
+                },
+                {
+                    "id": "Calculator.add"
+                },
+                {
+                    "id": "CheckUtils.IntParameterMustBePositive"
+                },
+                {
+                    "id": "CheckUtils.StringMustNotBeNullOrEmpty"
+                },
+                {
+                    "id": "DbServlet.doGet"
+                },
+                {
+                    "id": "FibServlet.doPost"
+                },
+                {
+                    "id": "FibServlet.forwardToResult"
+                },
+                {
+                    "id": "FibServlet.putNumberInRequest"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo1Calc"
+                },
+                {
+                    "id": "FibServlet.tailRecursiveAlgo2Calc"
+                },
+                {
+                    "id": "Fibonacci.calculate"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo1"
+                },
+                {
+                    "id": "FibonacciIterative.fibAlgo2"
+                },
+                {
+                    "id": "IPersistenceLayer.createLoan"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "LibraryBookListAvailableServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.searchByTitle"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.doGet"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchByName"
+                },
+                {
+                    "id": "LibraryLendServlet.doPost"
+                },
+                {
+                    "id": "LibraryLendServlet.getDateNow"
+                },
+                {
+                    "id": "LibraryRegisterBookServlet.doPost"
+                },
+                {
+                    "id": "LibraryRegisterBorrowerServlet.doPost"
+                },
+                {
+                    "id": "LibraryUtils.createLoan"
+                },
+                {
+                    "id": "LibraryUtils.lendBook"
+                },
+                {
+                    "id": "LibraryUtils.listAvailableBooks"
+                },
+                {
+                    "id": "LibraryUtils.registerBook"
+                },
+                {
+                    "id": "LibraryUtils.registerBorrower"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBook"
+                },
+                {
+                    "id": "LibraryUtils.saveNewBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookByTitle"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerByName"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBook"
+                },
+                {
+                    "id": "Loan.isEmpty"
+                },
+                {
+                    "id": "LoginServlet.doPost"
+                },
+                {
+                    "id": "LoginUtils.isUserRegistered"
+                },
+                {
+                    "id": "MathServlet.doPost"
+                },
+                {
+                    "id": "MathServlet.forwardToResult"
+                },
+                {
+                    "id": "MathServlet.putNumberInRequest"
+                },
+                {
+                    "id": "MathServlet.setResultToSum"
+                },
+                {
+                    "id": "PersistenceLayer.areCredentialsValid"
+                },
+                {
+                    "id": "PersistenceLayer.bytesToHex"
+                },
+                {
+                    "id": "PersistenceLayer.cleanAndMigrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.cleanDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.configureFlyway"
+                },
+                {
+                    "id": "PersistenceLayer.createExtractor"
+                },
+                {
+                    "id": "PersistenceLayer.createHashedValueFromPassword"
+                },
+                {
+                    "id": "PersistenceLayer.createLoan"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeInsertTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateOnPreparedStatement"
+                },
+                {
+                    "id": "PersistenceLayer.executeUpdateTemplate"
+                },
+                {
+                    "id": "PersistenceLayer.listAvailableBooks"
+                },
+                {
+                    "id": "PersistenceLayer.listBooks"
+                },
+                {
+                    "id": "PersistenceLayer.migrateDatabase"
+                },
+                {
+                    "id": "PersistenceLayer.prepareStatementWithKeys"
+                },
+                {
+                    "id": "PersistenceLayer.runQuery"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBook"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowerDataByName"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBook"
+                },
+                {
+                    "id": "PersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "PersistenceLayer.throwingFunctionWrapper"
+                },
+                {
+                    "id": "PersistenceLayer.updateUserWithPassword"
+                },
+                {
+                    "id": "RegisterServlet.doPost"
+                },
+                {
+                    "id": "RegisterServlet.forwardToResult"
+                },
+                {
+                    "id": "RegistrationUtils.isPasswordGood"
+                },
+                {
+                    "id": "RegistrationUtils.isUserInDatabase"
+                },
+                {
+                    "id": "ServletUtils.forwardToRestfulResult"
+                },
+                {
+                    "id": "ServletUtils.forwardToResult"
+                },
+                {
+                    "id": "SqlData.addParameter"
+                },
+                {
+                    "id": "SqlData.applyParametersToPreparedStatement"
+                },
+                {
+                    "id": "SqlData.generateParams"
+                },
+                {
+                    "id": "StringUtils.escapeForJson"
+                },
+                {
+                    "id": "StringUtils.makeNotNullable"
+                },
+                {
+                    "id": "TailRecursive$$.epsilon"
+                }
+            ],
+            "microservice1": [
+                {
+                    "id": "LibraryBorrowerListSearchServlet.searchById"
+                },
+                {
+                    "id": "LibraryUtils.listAllBorrowers"
+                },
+                {
+                    "id": "LibraryUtils.searchForBorrowerById"
+                },
+                {
+                    "id": "PasswordResult.PasswordResult"
+                },
+                {
+                    "id": "PasswordResult.createDefault"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBorrowers"
+                },
+                {
+                    "id": "PersistenceLayer.searchBorrowersById"
+                },
+                {
+                    "id": "RegistrationResult.RegistrationResult"
+                }
+            ],
+            "microservice2": [
+                {
+                    "id": "CheckUtils.mustBeTrueAtThisPoint"
+                },
+                {
+                    "id": "IPersistenceLayer.searchForLoanByBorrower"
+                },
+                {
+                    "id": "LibraryUtils.searchForLoanByBorrower"
+                },
+                {
+                    "id": "Loan.Loan"
+                },
+                {
+                    "id": "PersistenceLayer.saveNewUser"
+                },
+                {
+                    "id": "PersistenceLayer.searchForUserByName"
+                },
+                {
+                    "id": "RegistrationResult.toPrettyString"
+                },
+                {
+                    "id": "RegistrationUtils.processRegistration"
+                },
+                {
+                    "id": "RegistrationUtils.saveToDatabase"
+                }
+            ],
+            "microservice3": [
+                {
+                    "id": "FibServlet.defaultRecursiveCalculation"
+                },
+                {
+                    "id": "LibraryBookListSearchServlet.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.listAllBooks"
+                },
+                {
+                    "id": "LibraryUtils.searchForBookById"
+                },
+                {
+                    "id": "Loan.createEmpty"
+                },
+                {
+                    "id": "Loan.equals"
+                },
+                {
+                    "id": "PersistenceLayer.listAllBooks"
+                },
+                {
+                    "id": "PersistenceLayer.searchBooksById"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "DbServlet.doGet",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.cleanDatabase",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.configureFlyway",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.deleteBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.getBorrowerName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.listAllBorrowers",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.migrateDatabase",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.runRestore",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.saveNewBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchBorrowerDataByName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchBorrowersById",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchForLoanByBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.updateBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.doGet",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.listAllBorrowers",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchById",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBorrowerListSearchServlet.searchByName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBorrowerServlet.doPost",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.deleteBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.listAllBorrowers",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.saveNewBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBorrowerById",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBorrowerByName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanDatabase",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.configureFlyway",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.deleteBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.getBorrowerName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAllBorrowers",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.migrateDatabase",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.runRestore",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowerDataByName",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBorrowersById",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.updateBorrower",
+                "target": "BORROWER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DbServlet.doGet",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.cleanDatabase",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.configureFlyway",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.deleteBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.listAllBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.listAvailableBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.migrateDatabase",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.runRestore",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.saveNewBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchBooksById",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchBooksByTitle",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchForLoanByBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListAvailableServlet.doGet",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.doGet",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.listAllBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchById",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryBookListSearchServlet.searchByTitle",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryRegisterBookServlet.doPost",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.deleteBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.listAllBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.listAvailableBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.registerBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.saveNewBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookById",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForBookByTitle",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanDatabase",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.configureFlyway",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.deleteBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAllBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.listAvailableBooks",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.migrateDatabase",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.runRestore",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBooksById",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchBooksByTitle",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBook",
+                "target": "BOOK TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DbServlet.doGet",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.cleanDatabase",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.configureFlyway",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.createLoan",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.migrateDatabase",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.runRestore",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchForLoanByBook",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchForLoanByBorrower",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryLendServlet.doPost",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.createLoan",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.lendBook",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBook",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LibraryUtils.searchForLoanByBorrower",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanDatabase",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.configureFlyway",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.createLoan",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.migrateDatabase",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.runRestore",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBook",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForLoanByBorrower",
+                "target": "LOAN TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "DbServlet.doGet",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.areCredentialsValid",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.cleanDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.configureFlyway",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.migrateDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.runRestore",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.saveNewUser",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.searchForUserByName",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "IPersistenceLayer.updateUserWithPassword",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LoginServlet.doPost",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LoginUtils.isUserRegistered",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.areCredentialsValid",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanAndMigrateDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.cleanDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.configureFlyway",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.migrateDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.runRestore",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.saveNewUser",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.searchForUserByName",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "PersistenceLayer.updateUserWithPassword",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "RegisterServlet.doPost",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.isUserInDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.processRegistration",
+                "target": "USER TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "RegistrationUtils.saveToDatabase",
+                "target": "USER TABLE",
+                "weight": "1"
+            }
+        ]
+    }
+}

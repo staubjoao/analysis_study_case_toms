@@ -1,0 +1,5356 @@
+{
+    "1_structural_static": {
+        "decomposition": {
+            "partition0": [
+                {
+                    "id": "Cart.Cart"
+                },
+                {
+                    "id": "Cart.addItem"
+                },
+                {
+                    "id": "Cart.containsItemId"
+                },
+                {
+                    "id": "Cart.getAllCartItems"
+                },
+                {
+                    "id": "Cart.getCartItemList"
+                },
+                {
+                    "id": "Cart.getCartItems"
+                },
+                {
+                    "id": "Cart.getNumberOfItems"
+                },
+                {
+                    "id": "Cart.getSubTotal"
+                },
+                {
+                    "id": "Cart.incrementQuantityByItemId"
+                },
+                {
+                    "id": "Cart.removeItemById"
+                },
+                {
+                    "id": "Cart.setQuantityByItemId"
+                },
+                {
+                    "id": "CartActionBean.CartActionBean"
+                },
+                {
+                    "id": "CartActionBean.addItemToCart"
+                },
+                {
+                    "id": "CartActionBean.checkOut"
+                },
+                {
+                    "id": "CartActionBean.clear"
+                },
+                {
+                    "id": "CartActionBean.getCart"
+                },
+                {
+                    "id": "CartActionBean.removeItemFromCart"
+                },
+                {
+                    "id": "CartActionBean.setCart"
+                },
+                {
+                    "id": "CartActionBean.setMessage"
+                },
+                {
+                    "id": "CartActionBean.setWorkingItemId"
+                },
+                {
+                    "id": "CartActionBean.updateCartQuantities"
+                },
+                {
+                    "id": "CartActionBean.viewCart"
+                },
+                {
+                    "id": "CartItem.CartItem"
+                },
+                {
+                    "id": "CartItem.calculateTotal"
+                },
+                {
+                    "id": "CartItem.getItem"
+                },
+                {
+                    "id": "CartItem.getQuantity"
+                },
+                {
+                    "id": "CartItem.getTotal"
+                },
+                {
+                    "id": "CartItem.incrementQuantity"
+                },
+                {
+                    "id": "CartItem.isInStock"
+                },
+                {
+                    "id": "CartItem.setInStock"
+                },
+                {
+                    "id": "CartItem.setItem"
+                },
+                {
+                    "id": "CartItem.setQuantity"
+                },
+                {
+                    "id": "Item.Item"
+                },
+                {
+                    "id": "Item.getAttribute1"
+                },
+                {
+                    "id": "Item.getAttribute2"
+                },
+                {
+                    "id": "Item.getAttribute3"
+                },
+                {
+                    "id": "Item.getAttribute4"
+                },
+                {
+                    "id": "Item.getAttribute5"
+                },
+                {
+                    "id": "Item.getItemId"
+                },
+                {
+                    "id": "Item.getListPrice"
+                },
+                {
+                    "id": "Item.getProduct"
+                },
+                {
+                    "id": "Item.getQuantity"
+                },
+                {
+                    "id": "Item.getStatus"
+                },
+                {
+                    "id": "Item.getSupplierId"
+                },
+                {
+                    "id": "Item.getUnitCost"
+                },
+                {
+                    "id": "Item.setAttribute1"
+                },
+                {
+                    "id": "Item.setAttribute2"
+                },
+                {
+                    "id": "Item.setAttribute3"
+                },
+                {
+                    "id": "Item.setAttribute4"
+                },
+                {
+                    "id": "Item.setAttribute5"
+                },
+                {
+                    "id": "Item.setItemId"
+                },
+                {
+                    "id": "Item.setListPrice"
+                },
+                {
+                    "id": "Item.setProduct"
+                },
+                {
+                    "id": "Item.setQuantity"
+                },
+                {
+                    "id": "Item.setStatus"
+                },
+                {
+                    "id": "Item.setSupplierId"
+                },
+                {
+                    "id": "Item.setUnitCost"
+                },
+                {
+                    "id": "Item.toString"
+                },
+                {
+                    "id": "LineItem.LineItem"
+                },
+                {
+                    "id": "LineItem.calculateTotal"
+                },
+                {
+                    "id": "LineItem.getItem"
+                },
+                {
+                    "id": "LineItem.getItemId"
+                },
+                {
+                    "id": "LineItem.getLineNumber"
+                },
+                {
+                    "id": "LineItem.getOrderId"
+                },
+                {
+                    "id": "LineItem.getQuantity"
+                },
+                {
+                    "id": "LineItem.getTotal"
+                },
+                {
+                    "id": "LineItem.getUnitPrice"
+                },
+                {
+                    "id": "LineItem.setItem"
+                },
+                {
+                    "id": "LineItem.setItemId"
+                },
+                {
+                    "id": "LineItem.setLineNumber"
+                },
+                {
+                    "id": "LineItem.setOrderId"
+                },
+                {
+                    "id": "LineItem.setQuantity"
+                },
+                {
+                    "id": "LineItem.setUnitPrice"
+                },
+                {
+                    "id": "Order.Order"
+                },
+                {
+                    "id": "Order.addLineItem"
+                },
+                {
+                    "id": "Order.getBillAddress1"
+                },
+                {
+                    "id": "Order.getBillAddress2"
+                },
+                {
+                    "id": "Order.getBillCity"
+                },
+                {
+                    "id": "Order.getBillCountry"
+                },
+                {
+                    "id": "Order.getBillState"
+                },
+                {
+                    "id": "Order.getBillToFirstName"
+                },
+                {
+                    "id": "Order.getBillToLastName"
+                },
+                {
+                    "id": "Order.getBillZip"
+                },
+                {
+                    "id": "Order.getCardType"
+                },
+                {
+                    "id": "Order.getCourier"
+                },
+                {
+                    "id": "Order.getCreditCard"
+                },
+                {
+                    "id": "Order.getExpiryDate"
+                },
+                {
+                    "id": "Order.getLineItems"
+                },
+                {
+                    "id": "Order.getLocale"
+                },
+                {
+                    "id": "Order.getOrderDate"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getShipAddress1"
+                },
+                {
+                    "id": "Order.getShipAddress2"
+                },
+                {
+                    "id": "Order.getShipCity"
+                },
+                {
+                    "id": "Order.getShipCountry"
+                },
+                {
+                    "id": "Order.getShipState"
+                },
+                {
+                    "id": "Order.getShipToFirstName"
+                },
+                {
+                    "id": "Order.getShipToLastName"
+                },
+                {
+                    "id": "Order.getShipZip"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.getTotalPrice"
+                },
+                {
+                    "id": "Order.getUsername"
+                },
+                {
+                    "id": "Order.initOrder"
+                },
+                {
+                    "id": "Order.setBillAddress1"
+                },
+                {
+                    "id": "Order.setBillAddress2"
+                },
+                {
+                    "id": "Order.setBillCity"
+                },
+                {
+                    "id": "Order.setBillCountry"
+                },
+                {
+                    "id": "Order.setBillState"
+                },
+                {
+                    "id": "Order.setBillToFirstName"
+                },
+                {
+                    "id": "Order.setBillToLastName"
+                },
+                {
+                    "id": "Order.setBillZip"
+                },
+                {
+                    "id": "Order.setCardType"
+                },
+                {
+                    "id": "Order.setCourier"
+                },
+                {
+                    "id": "Order.setCreditCard"
+                },
+                {
+                    "id": "Order.setExpiryDate"
+                },
+                {
+                    "id": "Order.setLineItems"
+                },
+                {
+                    "id": "Order.setLocale"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setShipAddress1"
+                },
+                {
+                    "id": "Order.setShipAddress2"
+                },
+                {
+                    "id": "Order.setShipCity"
+                },
+                {
+                    "id": "Order.setShipCountry"
+                },
+                {
+                    "id": "Order.setShipState"
+                },
+                {
+                    "id": "Order.setShipToFirstName"
+                },
+                {
+                    "id": "Order.setShipToLastName"
+                },
+                {
+                    "id": "Order.setShipZip"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "Order.setTotalPrice"
+                },
+                {
+                    "id": "Order.setUsername"
+                },
+                {
+                    "id": "OrderService.OrderService"
+                },
+                {
+                    "id": "OrderService.getNextId"
+                },
+                {
+                    "id": "OrderService.getOrder"
+                },
+                {
+                    "id": "OrderService.getOrdersByUsername"
+                },
+                {
+                    "id": "OrderService.insertOrder"
+                },
+                {
+                    "id": "Sequence.Sequence"
+                },
+                {
+                    "id": "Sequence.getName"
+                },
+                {
+                    "id": "Sequence.getNextId"
+                },
+                {
+                    "id": "Sequence.setName"
+                },
+                {
+                    "id": "Sequence.setNextId"
+                }
+            ],
+            "partition1": [
+                {
+                    "id": "AbstractActionBean.AbstractActionBean"
+                },
+                {
+                    "id": "AbstractActionBean.getContext"
+                },
+                {
+                    "id": "AbstractActionBean.setContext"
+                },
+                {
+                    "id": "AbstractActionBean.setMessage"
+                },
+                {
+                    "id": "Account.Account"
+                },
+                {
+                    "id": "Account.getAddress1"
+                },
+                {
+                    "id": "Account.getAddress2"
+                },
+                {
+                    "id": "Account.getBannerName"
+                },
+                {
+                    "id": "Account.getCity"
+                },
+                {
+                    "id": "Account.getCountry"
+                },
+                {
+                    "id": "Account.getEmail"
+                },
+                {
+                    "id": "Account.getFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.getFirstName"
+                },
+                {
+                    "id": "Account.getLanguagePreference"
+                },
+                {
+                    "id": "Account.getLastName"
+                },
+                {
+                    "id": "Account.getPassword"
+                },
+                {
+                    "id": "Account.getPhone"
+                },
+                {
+                    "id": "Account.getState"
+                },
+                {
+                    "id": "Account.getStatus"
+                },
+                {
+                    "id": "Account.getUsername"
+                },
+                {
+                    "id": "Account.getZip"
+                },
+                {
+                    "id": "Account.isBannerOption"
+                },
+                {
+                    "id": "Account.isListOption"
+                },
+                {
+                    "id": "Account.setAddress1"
+                },
+                {
+                    "id": "Account.setAddress2"
+                },
+                {
+                    "id": "Account.setBannerName"
+                },
+                {
+                    "id": "Account.setBannerOption"
+                },
+                {
+                    "id": "Account.setCity"
+                },
+                {
+                    "id": "Account.setCountry"
+                },
+                {
+                    "id": "Account.setEmail"
+                },
+                {
+                    "id": "Account.setFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.setFirstName"
+                },
+                {
+                    "id": "Account.setLanguagePreference"
+                },
+                {
+                    "id": "Account.setLastName"
+                },
+                {
+                    "id": "Account.setListOption"
+                },
+                {
+                    "id": "Account.setPassword"
+                },
+                {
+                    "id": "Account.setPhone"
+                },
+                {
+                    "id": "Account.setState"
+                },
+                {
+                    "id": "Account.setStatus"
+                },
+                {
+                    "id": "Account.setUsername"
+                },
+                {
+                    "id": "Account.setZip"
+                },
+                {
+                    "id": "AccountActionBean.AccountActionBean"
+                },
+                {
+                    "id": "AccountActionBean.clear"
+                },
+                {
+                    "id": "AccountActionBean.editAccount"
+                },
+                {
+                    "id": "AccountActionBean.editAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.getAccount"
+                },
+                {
+                    "id": "AccountActionBean.getCategories"
+                },
+                {
+                    "id": "AccountActionBean.getLanguages"
+                },
+                {
+                    "id": "AccountActionBean.getMyList"
+                },
+                {
+                    "id": "AccountActionBean.getPassword"
+                },
+                {
+                    "id": "AccountActionBean.getUsername"
+                },
+                {
+                    "id": "AccountActionBean.isAuthenticated"
+                },
+                {
+                    "id": "AccountActionBean.newAccount"
+                },
+                {
+                    "id": "AccountActionBean.newAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.setMessage"
+                },
+                {
+                    "id": "AccountActionBean.setMyList"
+                },
+                {
+                    "id": "AccountActionBean.setPassword"
+                },
+                {
+                    "id": "AccountActionBean.setUsername"
+                },
+                {
+                    "id": "AccountActionBean.signoff"
+                },
+                {
+                    "id": "AccountActionBean.signon"
+                },
+                {
+                    "id": "AccountActionBean.signonForm"
+                },
+                {
+                    "id": "AccountService.AccountService"
+                },
+                {
+                    "id": "AccountService.getAccount"
+                },
+                {
+                    "id": "AccountService.insertAccount"
+                },
+                {
+                    "id": "AccountService.updateAccount"
+                },
+                {
+                    "id": "OrderActionBean.OrderActionBean"
+                },
+                {
+                    "id": "OrderActionBean.clear"
+                },
+                {
+                    "id": "OrderActionBean.getCreditCardTypes"
+                },
+                {
+                    "id": "OrderActionBean.getOrder"
+                },
+                {
+                    "id": "OrderActionBean.getOrderId"
+                },
+                {
+                    "id": "OrderActionBean.getOrderList"
+                },
+                {
+                    "id": "OrderActionBean.isConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.isShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.listOrders"
+                },
+                {
+                    "id": "OrderActionBean.newOrder"
+                },
+                {
+                    "id": "OrderActionBean.newOrderForm"
+                },
+                {
+                    "id": "OrderActionBean.setConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.setMessage"
+                },
+                {
+                    "id": "OrderActionBean.setOrder"
+                },
+                {
+                    "id": "OrderActionBean.setOrderId"
+                },
+                {
+                    "id": "OrderActionBean.setShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.viewOrder"
+                }
+            ],
+            "partition2": [
+                {
+                    "id": "CatalogActionBean.CatalogActionBean"
+                },
+                {
+                    "id": "CatalogActionBean.clear"
+                },
+                {
+                    "id": "CatalogActionBean.getCategory"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.getItem"
+                },
+                {
+                    "id": "CatalogActionBean.getItemId"
+                },
+                {
+                    "id": "CatalogActionBean.getItemList"
+                },
+                {
+                    "id": "CatalogActionBean.getKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.getProduct"
+                },
+                {
+                    "id": "CatalogActionBean.getProductId"
+                },
+                {
+                    "id": "CatalogActionBean.getProductList"
+                },
+                {
+                    "id": "CatalogActionBean.searchProducts"
+                },
+                {
+                    "id": "CatalogActionBean.setCategory"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.setItem"
+                },
+                {
+                    "id": "CatalogActionBean.setItemId"
+                },
+                {
+                    "id": "CatalogActionBean.setItemList"
+                },
+                {
+                    "id": "CatalogActionBean.setKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.setMessage"
+                },
+                {
+                    "id": "CatalogActionBean.setProduct"
+                },
+                {
+                    "id": "CatalogActionBean.setProductId"
+                },
+                {
+                    "id": "CatalogActionBean.setProductList"
+                },
+                {
+                    "id": "CatalogActionBean.viewCategory"
+                },
+                {
+                    "id": "CatalogActionBean.viewItem"
+                },
+                {
+                    "id": "CatalogActionBean.viewMain"
+                },
+                {
+                    "id": "CatalogActionBean.viewProduct"
+                },
+                {
+                    "id": "CatalogService.CatalogService"
+                },
+                {
+                    "id": "CatalogService.getCategory"
+                },
+                {
+                    "id": "CatalogService.getCategoryList"
+                },
+                {
+                    "id": "CatalogService.getItem"
+                },
+                {
+                    "id": "CatalogService.getItemListByProduct"
+                },
+                {
+                    "id": "CatalogService.getProduct"
+                },
+                {
+                    "id": "CatalogService.getProductListByCategory"
+                },
+                {
+                    "id": "CatalogService.isItemInStock"
+                },
+                {
+                    "id": "CatalogService.searchProductList"
+                },
+                {
+                    "id": "Category.Category"
+                },
+                {
+                    "id": "Category.getCategoryId"
+                },
+                {
+                    "id": "Category.getDescription"
+                },
+                {
+                    "id": "Category.getName"
+                },
+                {
+                    "id": "Category.setCategoryId"
+                },
+                {
+                    "id": "Category.setDescription"
+                },
+                {
+                    "id": "Category.setName"
+                },
+                {
+                    "id": "Category.toString"
+                },
+                {
+                    "id": "Product.Product"
+                },
+                {
+                    "id": "Product.getCategoryId"
+                },
+                {
+                    "id": "Product.getDescription"
+                },
+                {
+                    "id": "Product.getName"
+                },
+                {
+                    "id": "Product.getProductId"
+                },
+                {
+                    "id": "Product.setCategoryId"
+                },
+                {
+                    "id": "Product.setDescription"
+                },
+                {
+                    "id": "Product.setName"
+                },
+                {
+                    "id": "Product.setProductId"
+                },
+                {
+                    "id": "Product.toString"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "Cart.addItem",
+                "target": "CartItem.CartItem",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.addItem",
+                "target": "CartItem.incrementQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.addItem",
+                "target": "CartItem.setInStock",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.addItem",
+                "target": "CartItem.setItem",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.addItem",
+                "target": "CartItem.setQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.addItem",
+                "target": "Item.getItemId",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.incrementQuantityByItemId",
+                "target": "CartItem.incrementQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.removeItemById",
+                "target": "CartItem.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "Cart.setQuantityByItemId",
+                "target": "CartItem.setQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "CartItem.incrementQuantity",
+                "target": "CartItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "CartItem.setItem",
+                "target": "CartItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "CartItem.setQuantity",
+                "target": "CartItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "Category.toString",
+                "target": "Category.getCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "Item.toString",
+                "target": "Item.getItemId",
+                "weight": "1"
+            },
+            {
+                "source": "Item.toString",
+                "target": "Item.getProduct",
+                "weight": "1"
+            },
+            {
+                "source": "Item.toString",
+                "target": "Product.getProductId",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.LineItem",
+                "target": "CartItem.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.LineItem",
+                "target": "CartItem.getQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.LineItem",
+                "target": "Item.getItemId",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.LineItem",
+                "target": "Item.getListPrice",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.LineItem",
+                "target": "LineItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.setItem",
+                "target": "LineItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "LineItem.setQuantity",
+                "target": "LineItem.calculateTotal",
+                "weight": "1"
+            },
+            {
+                "source": "Order.addLineItem",
+                "target": "LineItem.LineItem",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getAddress1",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getAddress2",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getCity",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getCountry",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getFirstName",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getLastName",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getState",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Account.getZip",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Cart.getAllCartItems",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Cart.getSubTotal",
+                "weight": "1"
+            },
+            {
+                "source": "Order.initOrder",
+                "target": "Order.addLineItem",
+                "weight": "1"
+            },
+            {
+                "source": "Product.toString",
+                "target": "Product.getName",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.updateAccount",
+                "target": "Account.getPassword",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getNextId",
+                "target": "Sequence.Sequence",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getNextId",
+                "target": "Sequence.getNextId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrder",
+                "target": "Order.getLineItems",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrder",
+                "target": "Order.setLineItems",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "Order.getLineItems",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "Order.setOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "OrderService.getNextId",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.AccountActionBean",
+                "target": "Account.Account",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.AccountActionBean",
+                "target": "AbstractActionBean.AbstractActionBean",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.clear",
+                "target": "Account.Account",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "Account.getFavouriteCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "AccountService.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "AccountService.updateAccount",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.getPassword",
+                "target": "Account.getPassword",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.getUsername",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.isAuthenticated",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "Account.getFavouriteCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "AccountService.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "AccountService.insertAccount",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.setPassword",
+                "target": "Account.setPassword",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.setUsername",
+                "target": "Account.setUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signoff",
+                "target": "AccountActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "Account.getFavouriteCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "Account.setPassword",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "AccountService.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "AccountActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "AccountActionBean.getPassword",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "AccountActionBean.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "AccountActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.CartActionBean",
+                "target": "Cart.Cart",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.CartActionBean",
+                "target": "AbstractActionBean.AbstractActionBean",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "Cart.addItem",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "Cart.containsItemId",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "Cart.incrementQuantityByItemId",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "CatalogService.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "CatalogService.isItemInStock",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.clear",
+                "target": "Cart.Cart",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.removeItemFromCart",
+                "target": "Cart.removeItemById",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.removeItemFromCart",
+                "target": "CartActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.updateCartQuantities",
+                "target": "Cart.getAllCartItems",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.updateCartQuantities",
+                "target": "Cart.setQuantityByItemId",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.updateCartQuantities",
+                "target": "CartItem.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.updateCartQuantities",
+                "target": "Item.getItemId",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.updateCartQuantities",
+                "target": "CartActionBean.getCart",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.CatalogActionBean",
+                "target": "AbstractActionBean.AbstractActionBean",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.searchProducts",
+                "target": "CatalogService.searchProductList",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.searchProducts",
+                "target": "CatalogActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewCategory",
+                "target": "CatalogService.getCategory",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewCategory",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewItem",
+                "target": "Item.getProduct",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewItem",
+                "target": "CatalogService.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewProduct",
+                "target": "CatalogService.getItemListByProduct",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewProduct",
+                "target": "CatalogService.getProduct",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.OrderActionBean",
+                "target": "Order.Order",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.OrderActionBean",
+                "target": "AbstractActionBean.AbstractActionBean",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.clear",
+                "target": "Order.Order",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.getOrderId",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.listOrders",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.listOrders",
+                "target": "OrderService.getOrdersByUsername",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.listOrders",
+                "target": "AccountActionBean.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "OrderService.insertOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "CartActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "OrderActionBean.getOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "OrderActionBean.isConfirmed",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "OrderActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "Order.initOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "AccountActionBean.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "AccountActionBean.isAuthenticated",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "CartActionBean.getCart",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "OrderActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrderForm",
+                "target": "OrderActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.setOrderId",
+                "target": "Order.setOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "Account.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "Order.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "Order.getUsername",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "OrderService.getOrder",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "AccountActionBean.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "OrderActionBean.setMessage",
+                "weight": "1"
+            }
+        ]
+    },
+    "3_business_use_cases": {
+        "decomposition": {
+            "Order USE CASE": [
+                {
+                    "id": "ORDER USE CASE"
+                }
+            ],
+            "SelectItems USE CASE": [
+                {
+                    "id": "SELECTITEMS USE CASE"
+                }
+            ],
+            "UpdateProfile USE CASE": [
+                {
+                    "id": "UPDATEPROFILE USE CASE"
+                }
+            ],
+            "partition0": [
+                {
+                    "id": "Cart.Cart"
+                },
+                {
+                    "id": "Cart.addItem"
+                },
+                {
+                    "id": "Cart.containsItemId"
+                },
+                {
+                    "id": "Cart.getAllCartItems"
+                },
+                {
+                    "id": "Cart.getCartItemList"
+                },
+                {
+                    "id": "Cart.getCartItems"
+                },
+                {
+                    "id": "Cart.getNumberOfItems"
+                },
+                {
+                    "id": "Cart.getSubTotal"
+                },
+                {
+                    "id": "Cart.incrementQuantityByItemId"
+                },
+                {
+                    "id": "Cart.removeItemById"
+                },
+                {
+                    "id": "Cart.setQuantityByItemId"
+                },
+                {
+                    "id": "CartActionBean.CartActionBean"
+                },
+                {
+                    "id": "CartActionBean.addItemToCart"
+                },
+                {
+                    "id": "CartActionBean.checkOut"
+                },
+                {
+                    "id": "CartActionBean.clear"
+                },
+                {
+                    "id": "CartActionBean.getCart"
+                },
+                {
+                    "id": "CartActionBean.removeItemFromCart"
+                },
+                {
+                    "id": "CartActionBean.setCart"
+                },
+                {
+                    "id": "CartActionBean.setMessage"
+                },
+                {
+                    "id": "CartActionBean.setWorkingItemId"
+                },
+                {
+                    "id": "CartActionBean.updateCartQuantities"
+                },
+                {
+                    "id": "CartActionBean.viewCart"
+                },
+                {
+                    "id": "CartItem.CartItem"
+                },
+                {
+                    "id": "CartItem.calculateTotal"
+                },
+                {
+                    "id": "CartItem.getItem"
+                },
+                {
+                    "id": "CartItem.getQuantity"
+                },
+                {
+                    "id": "CartItem.getTotal"
+                },
+                {
+                    "id": "CartItem.incrementQuantity"
+                },
+                {
+                    "id": "CartItem.isInStock"
+                },
+                {
+                    "id": "CartItem.setInStock"
+                },
+                {
+                    "id": "CartItem.setItem"
+                },
+                {
+                    "id": "CartItem.setQuantity"
+                },
+                {
+                    "id": "Item.Item"
+                },
+                {
+                    "id": "Item.getAttribute1"
+                },
+                {
+                    "id": "Item.getAttribute2"
+                },
+                {
+                    "id": "Item.getAttribute3"
+                },
+                {
+                    "id": "Item.getAttribute4"
+                },
+                {
+                    "id": "Item.getAttribute5"
+                },
+                {
+                    "id": "Item.getItemId"
+                },
+                {
+                    "id": "Item.getListPrice"
+                },
+                {
+                    "id": "Item.getProduct"
+                },
+                {
+                    "id": "Item.getQuantity"
+                },
+                {
+                    "id": "Item.getStatus"
+                },
+                {
+                    "id": "Item.getSupplierId"
+                },
+                {
+                    "id": "Item.getUnitCost"
+                },
+                {
+                    "id": "Item.setAttribute1"
+                },
+                {
+                    "id": "Item.setAttribute2"
+                },
+                {
+                    "id": "Item.setAttribute3"
+                },
+                {
+                    "id": "Item.setAttribute4"
+                },
+                {
+                    "id": "Item.setAttribute5"
+                },
+                {
+                    "id": "Item.setItemId"
+                },
+                {
+                    "id": "Item.setListPrice"
+                },
+                {
+                    "id": "Item.setProduct"
+                },
+                {
+                    "id": "Item.setQuantity"
+                },
+                {
+                    "id": "Item.setStatus"
+                },
+                {
+                    "id": "Item.setSupplierId"
+                },
+                {
+                    "id": "Item.setUnitCost"
+                },
+                {
+                    "id": "Item.toString"
+                },
+                {
+                    "id": "LineItem.LineItem"
+                },
+                {
+                    "id": "LineItem.calculateTotal"
+                },
+                {
+                    "id": "LineItem.getItem"
+                },
+                {
+                    "id": "LineItem.getItemId"
+                },
+                {
+                    "id": "LineItem.getLineNumber"
+                },
+                {
+                    "id": "LineItem.getOrderId"
+                },
+                {
+                    "id": "LineItem.getQuantity"
+                },
+                {
+                    "id": "LineItem.getTotal"
+                },
+                {
+                    "id": "LineItem.getUnitPrice"
+                },
+                {
+                    "id": "LineItem.setItem"
+                },
+                {
+                    "id": "LineItem.setItemId"
+                },
+                {
+                    "id": "LineItem.setLineNumber"
+                },
+                {
+                    "id": "LineItem.setOrderId"
+                },
+                {
+                    "id": "LineItem.setQuantity"
+                },
+                {
+                    "id": "LineItem.setUnitPrice"
+                },
+                {
+                    "id": "Order.Order"
+                },
+                {
+                    "id": "Order.addLineItem"
+                },
+                {
+                    "id": "Order.getBillAddress1"
+                },
+                {
+                    "id": "Order.getBillAddress2"
+                },
+                {
+                    "id": "Order.getBillCity"
+                },
+                {
+                    "id": "Order.getBillCountry"
+                },
+                {
+                    "id": "Order.getBillState"
+                },
+                {
+                    "id": "Order.getBillToFirstName"
+                },
+                {
+                    "id": "Order.getBillToLastName"
+                },
+                {
+                    "id": "Order.getBillZip"
+                },
+                {
+                    "id": "Order.getCardType"
+                },
+                {
+                    "id": "Order.getCourier"
+                },
+                {
+                    "id": "Order.getCreditCard"
+                },
+                {
+                    "id": "Order.getExpiryDate"
+                },
+                {
+                    "id": "Order.getLineItems"
+                },
+                {
+                    "id": "Order.getLocale"
+                },
+                {
+                    "id": "Order.getOrderDate"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getShipAddress1"
+                },
+                {
+                    "id": "Order.getShipAddress2"
+                },
+                {
+                    "id": "Order.getShipCity"
+                },
+                {
+                    "id": "Order.getShipCountry"
+                },
+                {
+                    "id": "Order.getShipState"
+                },
+                {
+                    "id": "Order.getShipToFirstName"
+                },
+                {
+                    "id": "Order.getShipToLastName"
+                },
+                {
+                    "id": "Order.getShipZip"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.getTotalPrice"
+                },
+                {
+                    "id": "Order.getUsername"
+                },
+                {
+                    "id": "Order.initOrder"
+                },
+                {
+                    "id": "Order.setBillAddress1"
+                },
+                {
+                    "id": "Order.setBillAddress2"
+                },
+                {
+                    "id": "Order.setBillCity"
+                },
+                {
+                    "id": "Order.setBillCountry"
+                },
+                {
+                    "id": "Order.setBillState"
+                },
+                {
+                    "id": "Order.setBillToFirstName"
+                },
+                {
+                    "id": "Order.setBillToLastName"
+                },
+                {
+                    "id": "Order.setBillZip"
+                },
+                {
+                    "id": "Order.setCardType"
+                },
+                {
+                    "id": "Order.setCourier"
+                },
+                {
+                    "id": "Order.setCreditCard"
+                },
+                {
+                    "id": "Order.setExpiryDate"
+                },
+                {
+                    "id": "Order.setLineItems"
+                },
+                {
+                    "id": "Order.setLocale"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setShipAddress1"
+                },
+                {
+                    "id": "Order.setShipAddress2"
+                },
+                {
+                    "id": "Order.setShipCity"
+                },
+                {
+                    "id": "Order.setShipCountry"
+                },
+                {
+                    "id": "Order.setShipState"
+                },
+                {
+                    "id": "Order.setShipToFirstName"
+                },
+                {
+                    "id": "Order.setShipToLastName"
+                },
+                {
+                    "id": "Order.setShipZip"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "Order.setTotalPrice"
+                },
+                {
+                    "id": "Order.setUsername"
+                },
+                {
+                    "id": "OrderService.OrderService"
+                },
+                {
+                    "id": "OrderService.getNextId"
+                },
+                {
+                    "id": "OrderService.getOrder"
+                },
+                {
+                    "id": "OrderService.getOrdersByUsername"
+                },
+                {
+                    "id": "OrderService.insertOrder"
+                },
+                {
+                    "id": "Sequence.Sequence"
+                },
+                {
+                    "id": "Sequence.getName"
+                },
+                {
+                    "id": "Sequence.getNextId"
+                },
+                {
+                    "id": "Sequence.setName"
+                },
+                {
+                    "id": "Sequence.setNextId"
+                }
+            ],
+            "partition1": [
+                {
+                    "id": "AbstractActionBean.AbstractActionBean"
+                },
+                {
+                    "id": "AbstractActionBean.getContext"
+                },
+                {
+                    "id": "AbstractActionBean.setContext"
+                },
+                {
+                    "id": "AbstractActionBean.setMessage"
+                },
+                {
+                    "id": "Account.Account"
+                },
+                {
+                    "id": "Account.getAddress1"
+                },
+                {
+                    "id": "Account.getAddress2"
+                },
+                {
+                    "id": "Account.getBannerName"
+                },
+                {
+                    "id": "Account.getCity"
+                },
+                {
+                    "id": "Account.getCountry"
+                },
+                {
+                    "id": "Account.getEmail"
+                },
+                {
+                    "id": "Account.getFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.getFirstName"
+                },
+                {
+                    "id": "Account.getLanguagePreference"
+                },
+                {
+                    "id": "Account.getLastName"
+                },
+                {
+                    "id": "Account.getPassword"
+                },
+                {
+                    "id": "Account.getPhone"
+                },
+                {
+                    "id": "Account.getState"
+                },
+                {
+                    "id": "Account.getStatus"
+                },
+                {
+                    "id": "Account.getUsername"
+                },
+                {
+                    "id": "Account.getZip"
+                },
+                {
+                    "id": "Account.isBannerOption"
+                },
+                {
+                    "id": "Account.isListOption"
+                },
+                {
+                    "id": "Account.setAddress1"
+                },
+                {
+                    "id": "Account.setAddress2"
+                },
+                {
+                    "id": "Account.setBannerName"
+                },
+                {
+                    "id": "Account.setBannerOption"
+                },
+                {
+                    "id": "Account.setCity"
+                },
+                {
+                    "id": "Account.setCountry"
+                },
+                {
+                    "id": "Account.setEmail"
+                },
+                {
+                    "id": "Account.setFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.setFirstName"
+                },
+                {
+                    "id": "Account.setLanguagePreference"
+                },
+                {
+                    "id": "Account.setLastName"
+                },
+                {
+                    "id": "Account.setListOption"
+                },
+                {
+                    "id": "Account.setPassword"
+                },
+                {
+                    "id": "Account.setPhone"
+                },
+                {
+                    "id": "Account.setState"
+                },
+                {
+                    "id": "Account.setStatus"
+                },
+                {
+                    "id": "Account.setUsername"
+                },
+                {
+                    "id": "Account.setZip"
+                },
+                {
+                    "id": "AccountActionBean.AccountActionBean"
+                },
+                {
+                    "id": "AccountActionBean.clear"
+                },
+                {
+                    "id": "AccountActionBean.editAccount"
+                },
+                {
+                    "id": "AccountActionBean.editAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.getAccount"
+                },
+                {
+                    "id": "AccountActionBean.getCategories"
+                },
+                {
+                    "id": "AccountActionBean.getLanguages"
+                },
+                {
+                    "id": "AccountActionBean.getMyList"
+                },
+                {
+                    "id": "AccountActionBean.getPassword"
+                },
+                {
+                    "id": "AccountActionBean.getUsername"
+                },
+                {
+                    "id": "AccountActionBean.isAuthenticated"
+                },
+                {
+                    "id": "AccountActionBean.newAccount"
+                },
+                {
+                    "id": "AccountActionBean.newAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.setMessage"
+                },
+                {
+                    "id": "AccountActionBean.setMyList"
+                },
+                {
+                    "id": "AccountActionBean.setPassword"
+                },
+                {
+                    "id": "AccountActionBean.setUsername"
+                },
+                {
+                    "id": "AccountActionBean.signoff"
+                },
+                {
+                    "id": "AccountActionBean.signon"
+                },
+                {
+                    "id": "AccountActionBean.signonForm"
+                },
+                {
+                    "id": "AccountService.AccountService"
+                },
+                {
+                    "id": "AccountService.getAccount"
+                },
+                {
+                    "id": "AccountService.insertAccount"
+                },
+                {
+                    "id": "AccountService.updateAccount"
+                },
+                {
+                    "id": "OrderActionBean.OrderActionBean"
+                },
+                {
+                    "id": "OrderActionBean.clear"
+                },
+                {
+                    "id": "OrderActionBean.getCreditCardTypes"
+                },
+                {
+                    "id": "OrderActionBean.getOrder"
+                },
+                {
+                    "id": "OrderActionBean.getOrderId"
+                },
+                {
+                    "id": "OrderActionBean.getOrderList"
+                },
+                {
+                    "id": "OrderActionBean.isConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.isShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.listOrders"
+                },
+                {
+                    "id": "OrderActionBean.newOrder"
+                },
+                {
+                    "id": "OrderActionBean.newOrderForm"
+                },
+                {
+                    "id": "OrderActionBean.setConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.setMessage"
+                },
+                {
+                    "id": "OrderActionBean.setOrder"
+                },
+                {
+                    "id": "OrderActionBean.setOrderId"
+                },
+                {
+                    "id": "OrderActionBean.setShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.viewOrder"
+                }
+            ],
+            "partition2": [
+                {
+                    "id": "CatalogActionBean.CatalogActionBean"
+                },
+                {
+                    "id": "CatalogActionBean.clear"
+                },
+                {
+                    "id": "CatalogActionBean.getCategory"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.getItem"
+                },
+                {
+                    "id": "CatalogActionBean.getItemId"
+                },
+                {
+                    "id": "CatalogActionBean.getItemList"
+                },
+                {
+                    "id": "CatalogActionBean.getKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.getProduct"
+                },
+                {
+                    "id": "CatalogActionBean.getProductId"
+                },
+                {
+                    "id": "CatalogActionBean.getProductList"
+                },
+                {
+                    "id": "CatalogActionBean.searchProducts"
+                },
+                {
+                    "id": "CatalogActionBean.setCategory"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.setItem"
+                },
+                {
+                    "id": "CatalogActionBean.setItemId"
+                },
+                {
+                    "id": "CatalogActionBean.setItemList"
+                },
+                {
+                    "id": "CatalogActionBean.setKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.setMessage"
+                },
+                {
+                    "id": "CatalogActionBean.setProduct"
+                },
+                {
+                    "id": "CatalogActionBean.setProductId"
+                },
+                {
+                    "id": "CatalogActionBean.setProductList"
+                },
+                {
+                    "id": "CatalogActionBean.viewCategory"
+                },
+                {
+                    "id": "CatalogActionBean.viewItem"
+                },
+                {
+                    "id": "CatalogActionBean.viewMain"
+                },
+                {
+                    "id": "CatalogActionBean.viewProduct"
+                },
+                {
+                    "id": "CatalogService.CatalogService"
+                },
+                {
+                    "id": "CatalogService.getCategory"
+                },
+                {
+                    "id": "CatalogService.getCategoryList"
+                },
+                {
+                    "id": "CatalogService.getItem"
+                },
+                {
+                    "id": "CatalogService.getItemListByProduct"
+                },
+                {
+                    "id": "CatalogService.getProduct"
+                },
+                {
+                    "id": "CatalogService.getProductListByCategory"
+                },
+                {
+                    "id": "CatalogService.isItemInStock"
+                },
+                {
+                    "id": "CatalogService.searchProductList"
+                },
+                {
+                    "id": "Category.Category"
+                },
+                {
+                    "id": "Category.getCategoryId"
+                },
+                {
+                    "id": "Category.getDescription"
+                },
+                {
+                    "id": "Category.getName"
+                },
+                {
+                    "id": "Category.setCategoryId"
+                },
+                {
+                    "id": "Category.setDescription"
+                },
+                {
+                    "id": "Category.setName"
+                },
+                {
+                    "id": "Category.toString"
+                },
+                {
+                    "id": "Product.Product"
+                },
+                {
+                    "id": "Product.getCategoryId"
+                },
+                {
+                    "id": "Product.getDescription"
+                },
+                {
+                    "id": "Product.getName"
+                },
+                {
+                    "id": "Product.getProductId"
+                },
+                {
+                    "id": "Product.setCategoryId"
+                },
+                {
+                    "id": "Product.setDescription"
+                },
+                {
+                    "id": "Product.setName"
+                },
+                {
+                    "id": "Product.setProductId"
+                },
+                {
+                    "id": "Product.toString"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "ORDER USE CASE",
+                "target": "AbstractActionBean.getContext",
+                "weight": "309"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AbstractActionBean.setContext",
+                "weight": "24"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AbstractActionBean.setMessage",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getAddress1",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getAddress2",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getBannerName",
+                "weight": "17"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getCity",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getCountry",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getEmail",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getFavouriteCategoryId",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getFirstName",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getLanguagePreference",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getLastName",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getPassword",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getPhone",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getState",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getUsername",
+                "weight": "63"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.getZip",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.isBannerOption",
+                "weight": "18"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.isListOption",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setAddress1",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setAddress2",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setBannerName",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setBannerOption",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setCity",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setCountry",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setEmail",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setFavouriteCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setFirstName",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setLanguagePreference",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setLastName",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setListOption",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setPassword",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setPhone",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setState",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setStatus",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setUsername",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Account.setZip",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.editAccountForm",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.getAccount",
+                "weight": "52"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.getCategories",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.getLanguages",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.getPassword",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.getUsername",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.isAuthenticated",
+                "weight": "57"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.setPassword",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.setUsername",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.signoff",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.signon",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountActionBean.signonForm",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "AccountService.getAccount",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.addItem",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.containsItemId",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.getAllCartItems",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.getCartItems",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.getNumberOfItems",
+                "weight": "10"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.getSubTotal",
+                "weight": "6"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.lambda$getSubTotal$0",
+                "weight": "7"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.removeItemById",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Cart.setQuantityByItemId",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.addItemToCart",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.getCart",
+                "weight": "24"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.removeItemFromCart",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.setWorkingItemId",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.updateCartQuantities",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartActionBean.viewCart",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.calculateTotal",
+                "weight": "8"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.getItem",
+                "weight": "85"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.getQuantity",
+                "weight": "14"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.getTotal",
+                "weight": "6"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.incrementQuantity",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.isInStock",
+                "weight": "6"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.lambda$calculateTotal$0",
+                "weight": "8"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.setInStock",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.setItem",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CartItem.setQuantity",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getCategory",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getItem",
+                "weight": "11"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getItemList",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getKeyword",
+                "weight": "22"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getProduct",
+                "weight": "14"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.getProductList",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.searchProducts",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.setCategoryId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.setItemId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.setKeyword",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.setProductId",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.viewCategory",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.viewItem",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.viewMain",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogActionBean.viewProduct",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.getCategory",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.getItem",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.getItemListByProduct",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.getProduct",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.isItemInStock",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "CatalogService.searchProductList",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Category.getName",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getAttribute1",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getAttribute2",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getAttribute3",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getAttribute4",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getAttribute5",
+                "weight": "12"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getItemId",
+                "weight": "46"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getListPrice",
+                "weight": "28"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getProduct",
+                "weight": "70"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.getQuantity",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setAttribute1",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setItemId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setListPrice",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setProduct",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setQuantity",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setStatus",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setSupplierId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Item.setUnitCost",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.calculateTotal",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getItem",
+                "weight": "20"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getItemId",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getLineNumber",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getQuantity",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getTotal",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.getUnitPrice",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.lambda$calculateTotal$0",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setItem",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setItemId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setLineNumber",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setOrderId",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "LineItem.setUnitPrice",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.addLineItem",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillAddress1",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillAddress2",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillCity",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillCountry",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillState",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillToFirstName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillToLastName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getBillZip",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getCardType",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getCourier",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getCreditCard",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getExpiryDate",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getLineItems",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getLocale",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getOrderDate",
+                "weight": "75"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getOrderId",
+                "weight": "147"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipAddress1",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipAddress2",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipCity",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipCountry",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipState",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipToFirstName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipToLastName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getShipZip",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getStatus",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getTotalPrice",
+                "weight": "73"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.getUsername",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.initOrder",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillAddress1",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillAddress2",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillCity",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillCountry",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillState",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillToFirstName",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillToLastName",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setBillZip",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setCardType",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setCourier",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setCreditCard",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setExpiryDate",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setLineItems",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setLocale",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setOrderDate",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setOrderId",
+                "weight": "73"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipAddress1",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipAddress2",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipCity",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipCountry",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipState",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipToFirstName",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipToLastName",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setShipZip",
+                "weight": "72"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setStatus",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setTotalPrice",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Order.setUsername",
+                "weight": "71"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.clear",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.getCreditCardTypes",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.getOrder",
+                "weight": "106"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.getOrderList",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.isConfirmed",
+                "weight": "2"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.isShippingAddressRequired",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.listOrders",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.newOrder",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.newOrderForm",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.setConfirmed",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.setOrderId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.setShippingAddressRequired",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderActionBean.viewOrder",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.getNextId",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.getOrder",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.getOrdersByUsername",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.insertOrder",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.lambda$getOrder$2",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.lambda$insertOrder$0",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "OrderService.lambda$insertOrder$1",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.getCategoryId",
+                "weight": "4"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.getDescription",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.getName",
+                "weight": "19"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.getProductId",
+                "weight": "21"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.setCategoryId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.setDescription",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.setName",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Product.setProductId",
+                "weight": "5"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Sequence.getName",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Sequence.getNextId",
+                "weight": "3"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Sequence.setName",
+                "weight": "1"
+            },
+            {
+                "source": "ORDER USE CASE",
+                "target": "Sequence.setNextId",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AbstractActionBean.getContext",
+                "weight": "274"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AbstractActionBean.setContext",
+                "weight": "18"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getAddress1",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getAddress2",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getBannerName",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getCity",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getCountry",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getEmail",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getFavouriteCategoryId",
+                "weight": "7"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getFirstName",
+                "weight": "6"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getLanguagePreference",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getLastName",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getPassword",
+                "weight": "5"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getPhone",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getState",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getStatus",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getUsername",
+                "weight": "26"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.getZip",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.isBannerOption",
+                "weight": "8"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.isListOption",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setAddress1",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setAddress2",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setBannerName",
+                "weight": "2"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setBannerOption",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setCity",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setCountry",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setEmail",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setFavouriteCategoryId",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setFirstName",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setLanguagePreference",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setLastName",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setListOption",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setPassword",
+                "weight": "5"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setPhone",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setState",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setUsername",
+                "weight": "5"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "Account.setZip",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.clear",
+                "weight": "2"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.editAccountForm",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.getAccount",
+                "weight": "80"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.getCategories",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.getLanguages",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.getPassword",
+                "weight": "4"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.getUsername",
+                "weight": "8"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.isAuthenticated",
+                "weight": "14"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.newAccount",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.newAccountForm",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.setPassword",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.setUsername",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.signoff",
+                "weight": "2"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.signon",
+                "weight": "2"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountActionBean.signonForm",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountService.getAccount",
+                "weight": "3"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "AccountService.insertAccount",
+                "weight": "1"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "CatalogActionBean.getKeyword",
+                "weight": "13"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "CatalogActionBean.viewMain",
+                "weight": "7"
+            },
+            {
+                "source": "UPDATEPROFILE USE CASE",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "AbstractActionBean.getContext",
+                "weight": "68"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "AbstractActionBean.setContext",
+                "weight": "7"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getCategory",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getItem",
+                "weight": "11"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getItemList",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getKeyword",
+                "weight": "7"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getProduct",
+                "weight": "15"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.getProductList",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.setCategoryId",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.setItemId",
+                "weight": "1"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.setProductId",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.viewCategory",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.viewItem",
+                "weight": "1"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.viewMain",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogActionBean.viewProduct",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogService.getCategory",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogService.getItem",
+                "weight": "1"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogService.getItemListByProduct",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogService.getProduct",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "CatalogService.getProductListByCategory",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Category.getName",
+                "weight": "2"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getAttribute1",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getAttribute2",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getAttribute3",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getAttribute4",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getAttribute5",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getItemId",
+                "weight": "14"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getListPrice",
+                "weight": "5"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getProduct",
+                "weight": "33"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.getQuantity",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setAttribute1",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setItemId",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setListPrice",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setProduct",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setQuantity",
+                "weight": "1"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setStatus",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setSupplierId",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Item.setUnitCost",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.getCategoryId",
+                "weight": "4"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.getDescription",
+                "weight": "1"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.getName",
+                "weight": "16"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.getProductId",
+                "weight": "22"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.setCategoryId",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.setDescription",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.setName",
+                "weight": "3"
+            },
+            {
+                "source": "SELECTITEMS USE CASE",
+                "target": "Product.setProductId",
+                "weight": "3"
+            }
+        ]
+    },
+    "4_database_access": {
+        "decomposition": {
+            "ACCOUNT TABLE": [
+                {
+                    "id": "ACCOUNT TABLE"
+                }
+            ],
+            "BANNERDATA TABLE": [
+                {
+                    "id": "BANNERDATA TABLE"
+                }
+            ],
+            "CATEGORY TABLE": [
+                {
+                    "id": "CATEGORY TABLE"
+                }
+            ],
+            "INVENTORY TABLE": [
+                {
+                    "id": "INVENTORY TABLE"
+                }
+            ],
+            "ITEM TABLE": [
+                {
+                    "id": "ITEM TABLE"
+                }
+            ],
+            "LINEITEM TABLE": [
+                {
+                    "id": "LINEITEM TABLE"
+                }
+            ],
+            "ORDERS TABLE": [
+                {
+                    "id": "ORDERS TABLE"
+                }
+            ],
+            "ORDERSTATUS TABLE": [
+                {
+                    "id": "ORDERSTATUS TABLE"
+                }
+            ],
+            "PRODUCT TABLE": [
+                {
+                    "id": "PRODUCT TABLE"
+                }
+            ],
+            "PROFILE TABLE": [
+                {
+                    "id": "PROFILE TABLE"
+                }
+            ],
+            "SEQUENCE TABLE": [
+                {
+                    "id": "SEQUENCE TABLE"
+                }
+            ],
+            "SIGNON TABLE": [
+                {
+                    "id": "SIGNON TABLE"
+                }
+            ],
+            "partition0": [
+                {
+                    "id": "Cart.Cart"
+                },
+                {
+                    "id": "Cart.addItem"
+                },
+                {
+                    "id": "Cart.containsItemId"
+                },
+                {
+                    "id": "Cart.getAllCartItems"
+                },
+                {
+                    "id": "Cart.getCartItemList"
+                },
+                {
+                    "id": "Cart.getCartItems"
+                },
+                {
+                    "id": "Cart.getNumberOfItems"
+                },
+                {
+                    "id": "Cart.getSubTotal"
+                },
+                {
+                    "id": "Cart.incrementQuantityByItemId"
+                },
+                {
+                    "id": "Cart.removeItemById"
+                },
+                {
+                    "id": "Cart.setQuantityByItemId"
+                },
+                {
+                    "id": "CartActionBean.CartActionBean"
+                },
+                {
+                    "id": "CartActionBean.addItemToCart"
+                },
+                {
+                    "id": "CartActionBean.checkOut"
+                },
+                {
+                    "id": "CartActionBean.clear"
+                },
+                {
+                    "id": "CartActionBean.getCart"
+                },
+                {
+                    "id": "CartActionBean.removeItemFromCart"
+                },
+                {
+                    "id": "CartActionBean.setCart"
+                },
+                {
+                    "id": "CartActionBean.setMessage"
+                },
+                {
+                    "id": "CartActionBean.setWorkingItemId"
+                },
+                {
+                    "id": "CartActionBean.updateCartQuantities"
+                },
+                {
+                    "id": "CartActionBean.viewCart"
+                },
+                {
+                    "id": "CartItem.CartItem"
+                },
+                {
+                    "id": "CartItem.calculateTotal"
+                },
+                {
+                    "id": "CartItem.getItem"
+                },
+                {
+                    "id": "CartItem.getQuantity"
+                },
+                {
+                    "id": "CartItem.getTotal"
+                },
+                {
+                    "id": "CartItem.incrementQuantity"
+                },
+                {
+                    "id": "CartItem.isInStock"
+                },
+                {
+                    "id": "CartItem.setInStock"
+                },
+                {
+                    "id": "CartItem.setItem"
+                },
+                {
+                    "id": "CartItem.setQuantity"
+                },
+                {
+                    "id": "Item.Item"
+                },
+                {
+                    "id": "Item.getAttribute1"
+                },
+                {
+                    "id": "Item.getAttribute2"
+                },
+                {
+                    "id": "Item.getAttribute3"
+                },
+                {
+                    "id": "Item.getAttribute4"
+                },
+                {
+                    "id": "Item.getAttribute5"
+                },
+                {
+                    "id": "Item.getItemId"
+                },
+                {
+                    "id": "Item.getListPrice"
+                },
+                {
+                    "id": "Item.getProduct"
+                },
+                {
+                    "id": "Item.getQuantity"
+                },
+                {
+                    "id": "Item.getStatus"
+                },
+                {
+                    "id": "Item.getSupplierId"
+                },
+                {
+                    "id": "Item.getUnitCost"
+                },
+                {
+                    "id": "Item.setAttribute1"
+                },
+                {
+                    "id": "Item.setAttribute2"
+                },
+                {
+                    "id": "Item.setAttribute3"
+                },
+                {
+                    "id": "Item.setAttribute4"
+                },
+                {
+                    "id": "Item.setAttribute5"
+                },
+                {
+                    "id": "Item.setItemId"
+                },
+                {
+                    "id": "Item.setListPrice"
+                },
+                {
+                    "id": "Item.setProduct"
+                },
+                {
+                    "id": "Item.setQuantity"
+                },
+                {
+                    "id": "Item.setStatus"
+                },
+                {
+                    "id": "Item.setSupplierId"
+                },
+                {
+                    "id": "Item.setUnitCost"
+                },
+                {
+                    "id": "Item.toString"
+                },
+                {
+                    "id": "LineItem.LineItem"
+                },
+                {
+                    "id": "LineItem.calculateTotal"
+                },
+                {
+                    "id": "LineItem.getItem"
+                },
+                {
+                    "id": "LineItem.getItemId"
+                },
+                {
+                    "id": "LineItem.getLineNumber"
+                },
+                {
+                    "id": "LineItem.getOrderId"
+                },
+                {
+                    "id": "LineItem.getQuantity"
+                },
+                {
+                    "id": "LineItem.getTotal"
+                },
+                {
+                    "id": "LineItem.getUnitPrice"
+                },
+                {
+                    "id": "LineItem.setItem"
+                },
+                {
+                    "id": "LineItem.setItemId"
+                },
+                {
+                    "id": "LineItem.setLineNumber"
+                },
+                {
+                    "id": "LineItem.setOrderId"
+                },
+                {
+                    "id": "LineItem.setQuantity"
+                },
+                {
+                    "id": "LineItem.setUnitPrice"
+                },
+                {
+                    "id": "Order.Order"
+                },
+                {
+                    "id": "Order.addLineItem"
+                },
+                {
+                    "id": "Order.getBillAddress1"
+                },
+                {
+                    "id": "Order.getBillAddress2"
+                },
+                {
+                    "id": "Order.getBillCity"
+                },
+                {
+                    "id": "Order.getBillCountry"
+                },
+                {
+                    "id": "Order.getBillState"
+                },
+                {
+                    "id": "Order.getBillToFirstName"
+                },
+                {
+                    "id": "Order.getBillToLastName"
+                },
+                {
+                    "id": "Order.getBillZip"
+                },
+                {
+                    "id": "Order.getCardType"
+                },
+                {
+                    "id": "Order.getCourier"
+                },
+                {
+                    "id": "Order.getCreditCard"
+                },
+                {
+                    "id": "Order.getExpiryDate"
+                },
+                {
+                    "id": "Order.getLineItems"
+                },
+                {
+                    "id": "Order.getLocale"
+                },
+                {
+                    "id": "Order.getOrderDate"
+                },
+                {
+                    "id": "Order.getOrderId"
+                },
+                {
+                    "id": "Order.getShipAddress1"
+                },
+                {
+                    "id": "Order.getShipAddress2"
+                },
+                {
+                    "id": "Order.getShipCity"
+                },
+                {
+                    "id": "Order.getShipCountry"
+                },
+                {
+                    "id": "Order.getShipState"
+                },
+                {
+                    "id": "Order.getShipToFirstName"
+                },
+                {
+                    "id": "Order.getShipToLastName"
+                },
+                {
+                    "id": "Order.getShipZip"
+                },
+                {
+                    "id": "Order.getStatus"
+                },
+                {
+                    "id": "Order.getTotalPrice"
+                },
+                {
+                    "id": "Order.getUsername"
+                },
+                {
+                    "id": "Order.initOrder"
+                },
+                {
+                    "id": "Order.setBillAddress1"
+                },
+                {
+                    "id": "Order.setBillAddress2"
+                },
+                {
+                    "id": "Order.setBillCity"
+                },
+                {
+                    "id": "Order.setBillCountry"
+                },
+                {
+                    "id": "Order.setBillState"
+                },
+                {
+                    "id": "Order.setBillToFirstName"
+                },
+                {
+                    "id": "Order.setBillToLastName"
+                },
+                {
+                    "id": "Order.setBillZip"
+                },
+                {
+                    "id": "Order.setCardType"
+                },
+                {
+                    "id": "Order.setCourier"
+                },
+                {
+                    "id": "Order.setCreditCard"
+                },
+                {
+                    "id": "Order.setExpiryDate"
+                },
+                {
+                    "id": "Order.setLineItems"
+                },
+                {
+                    "id": "Order.setLocale"
+                },
+                {
+                    "id": "Order.setOrderDate"
+                },
+                {
+                    "id": "Order.setOrderId"
+                },
+                {
+                    "id": "Order.setShipAddress1"
+                },
+                {
+                    "id": "Order.setShipAddress2"
+                },
+                {
+                    "id": "Order.setShipCity"
+                },
+                {
+                    "id": "Order.setShipCountry"
+                },
+                {
+                    "id": "Order.setShipState"
+                },
+                {
+                    "id": "Order.setShipToFirstName"
+                },
+                {
+                    "id": "Order.setShipToLastName"
+                },
+                {
+                    "id": "Order.setShipZip"
+                },
+                {
+                    "id": "Order.setStatus"
+                },
+                {
+                    "id": "Order.setTotalPrice"
+                },
+                {
+                    "id": "Order.setUsername"
+                },
+                {
+                    "id": "OrderService.OrderService"
+                },
+                {
+                    "id": "OrderService.getNextId"
+                },
+                {
+                    "id": "OrderService.getOrder"
+                },
+                {
+                    "id": "OrderService.getOrdersByUsername"
+                },
+                {
+                    "id": "OrderService.insertOrder"
+                },
+                {
+                    "id": "Sequence.Sequence"
+                },
+                {
+                    "id": "Sequence.getName"
+                },
+                {
+                    "id": "Sequence.getNextId"
+                },
+                {
+                    "id": "Sequence.setName"
+                },
+                {
+                    "id": "Sequence.setNextId"
+                }
+            ],
+            "partition1": [
+                {
+                    "id": "AbstractActionBean.AbstractActionBean"
+                },
+                {
+                    "id": "AbstractActionBean.getContext"
+                },
+                {
+                    "id": "AbstractActionBean.setContext"
+                },
+                {
+                    "id": "AbstractActionBean.setMessage"
+                },
+                {
+                    "id": "Account.Account"
+                },
+                {
+                    "id": "Account.getAddress1"
+                },
+                {
+                    "id": "Account.getAddress2"
+                },
+                {
+                    "id": "Account.getBannerName"
+                },
+                {
+                    "id": "Account.getCity"
+                },
+                {
+                    "id": "Account.getCountry"
+                },
+                {
+                    "id": "Account.getEmail"
+                },
+                {
+                    "id": "Account.getFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.getFirstName"
+                },
+                {
+                    "id": "Account.getLanguagePreference"
+                },
+                {
+                    "id": "Account.getLastName"
+                },
+                {
+                    "id": "Account.getPassword"
+                },
+                {
+                    "id": "Account.getPhone"
+                },
+                {
+                    "id": "Account.getState"
+                },
+                {
+                    "id": "Account.getStatus"
+                },
+                {
+                    "id": "Account.getUsername"
+                },
+                {
+                    "id": "Account.getZip"
+                },
+                {
+                    "id": "Account.isBannerOption"
+                },
+                {
+                    "id": "Account.isListOption"
+                },
+                {
+                    "id": "Account.setAddress1"
+                },
+                {
+                    "id": "Account.setAddress2"
+                },
+                {
+                    "id": "Account.setBannerName"
+                },
+                {
+                    "id": "Account.setBannerOption"
+                },
+                {
+                    "id": "Account.setCity"
+                },
+                {
+                    "id": "Account.setCountry"
+                },
+                {
+                    "id": "Account.setEmail"
+                },
+                {
+                    "id": "Account.setFavouriteCategoryId"
+                },
+                {
+                    "id": "Account.setFirstName"
+                },
+                {
+                    "id": "Account.setLanguagePreference"
+                },
+                {
+                    "id": "Account.setLastName"
+                },
+                {
+                    "id": "Account.setListOption"
+                },
+                {
+                    "id": "Account.setPassword"
+                },
+                {
+                    "id": "Account.setPhone"
+                },
+                {
+                    "id": "Account.setState"
+                },
+                {
+                    "id": "Account.setStatus"
+                },
+                {
+                    "id": "Account.setUsername"
+                },
+                {
+                    "id": "Account.setZip"
+                },
+                {
+                    "id": "AccountActionBean.AccountActionBean"
+                },
+                {
+                    "id": "AccountActionBean.clear"
+                },
+                {
+                    "id": "AccountActionBean.editAccount"
+                },
+                {
+                    "id": "AccountActionBean.editAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.getAccount"
+                },
+                {
+                    "id": "AccountActionBean.getCategories"
+                },
+                {
+                    "id": "AccountActionBean.getLanguages"
+                },
+                {
+                    "id": "AccountActionBean.getMyList"
+                },
+                {
+                    "id": "AccountActionBean.getPassword"
+                },
+                {
+                    "id": "AccountActionBean.getUsername"
+                },
+                {
+                    "id": "AccountActionBean.isAuthenticated"
+                },
+                {
+                    "id": "AccountActionBean.newAccount"
+                },
+                {
+                    "id": "AccountActionBean.newAccountForm"
+                },
+                {
+                    "id": "AccountActionBean.setMessage"
+                },
+                {
+                    "id": "AccountActionBean.setMyList"
+                },
+                {
+                    "id": "AccountActionBean.setPassword"
+                },
+                {
+                    "id": "AccountActionBean.setUsername"
+                },
+                {
+                    "id": "AccountActionBean.signoff"
+                },
+                {
+                    "id": "AccountActionBean.signon"
+                },
+                {
+                    "id": "AccountActionBean.signonForm"
+                },
+                {
+                    "id": "AccountService.AccountService"
+                },
+                {
+                    "id": "AccountService.getAccount"
+                },
+                {
+                    "id": "AccountService.insertAccount"
+                },
+                {
+                    "id": "AccountService.updateAccount"
+                },
+                {
+                    "id": "OrderActionBean.OrderActionBean"
+                },
+                {
+                    "id": "OrderActionBean.clear"
+                },
+                {
+                    "id": "OrderActionBean.getCreditCardTypes"
+                },
+                {
+                    "id": "OrderActionBean.getOrder"
+                },
+                {
+                    "id": "OrderActionBean.getOrderId"
+                },
+                {
+                    "id": "OrderActionBean.getOrderList"
+                },
+                {
+                    "id": "OrderActionBean.isConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.isShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.listOrders"
+                },
+                {
+                    "id": "OrderActionBean.newOrder"
+                },
+                {
+                    "id": "OrderActionBean.newOrderForm"
+                },
+                {
+                    "id": "OrderActionBean.setConfirmed"
+                },
+                {
+                    "id": "OrderActionBean.setMessage"
+                },
+                {
+                    "id": "OrderActionBean.setOrder"
+                },
+                {
+                    "id": "OrderActionBean.setOrderId"
+                },
+                {
+                    "id": "OrderActionBean.setShippingAddressRequired"
+                },
+                {
+                    "id": "OrderActionBean.viewOrder"
+                }
+            ],
+            "partition2": [
+                {
+                    "id": "CatalogActionBean.CatalogActionBean"
+                },
+                {
+                    "id": "CatalogActionBean.clear"
+                },
+                {
+                    "id": "CatalogActionBean.getCategory"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.getCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.getItem"
+                },
+                {
+                    "id": "CatalogActionBean.getItemId"
+                },
+                {
+                    "id": "CatalogActionBean.getItemList"
+                },
+                {
+                    "id": "CatalogActionBean.getKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.getProduct"
+                },
+                {
+                    "id": "CatalogActionBean.getProductId"
+                },
+                {
+                    "id": "CatalogActionBean.getProductList"
+                },
+                {
+                    "id": "CatalogActionBean.searchProducts"
+                },
+                {
+                    "id": "CatalogActionBean.setCategory"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryId"
+                },
+                {
+                    "id": "CatalogActionBean.setCategoryList"
+                },
+                {
+                    "id": "CatalogActionBean.setItem"
+                },
+                {
+                    "id": "CatalogActionBean.setItemId"
+                },
+                {
+                    "id": "CatalogActionBean.setItemList"
+                },
+                {
+                    "id": "CatalogActionBean.setKeyword"
+                },
+                {
+                    "id": "CatalogActionBean.setMessage"
+                },
+                {
+                    "id": "CatalogActionBean.setProduct"
+                },
+                {
+                    "id": "CatalogActionBean.setProductId"
+                },
+                {
+                    "id": "CatalogActionBean.setProductList"
+                },
+                {
+                    "id": "CatalogActionBean.viewCategory"
+                },
+                {
+                    "id": "CatalogActionBean.viewItem"
+                },
+                {
+                    "id": "CatalogActionBean.viewMain"
+                },
+                {
+                    "id": "CatalogActionBean.viewProduct"
+                },
+                {
+                    "id": "CatalogService.CatalogService"
+                },
+                {
+                    "id": "CatalogService.getCategory"
+                },
+                {
+                    "id": "CatalogService.getCategoryList"
+                },
+                {
+                    "id": "CatalogService.getItem"
+                },
+                {
+                    "id": "CatalogService.getItemListByProduct"
+                },
+                {
+                    "id": "CatalogService.getProduct"
+                },
+                {
+                    "id": "CatalogService.getProductListByCategory"
+                },
+                {
+                    "id": "CatalogService.isItemInStock"
+                },
+                {
+                    "id": "CatalogService.searchProductList"
+                },
+                {
+                    "id": "Category.Category"
+                },
+                {
+                    "id": "Category.getCategoryId"
+                },
+                {
+                    "id": "Category.getDescription"
+                },
+                {
+                    "id": "Category.getName"
+                },
+                {
+                    "id": "Category.setCategoryId"
+                },
+                {
+                    "id": "Category.setDescription"
+                },
+                {
+                    "id": "Category.setName"
+                },
+                {
+                    "id": "Category.toString"
+                },
+                {
+                    "id": "Product.Product"
+                },
+                {
+                    "id": "Product.getCategoryId"
+                },
+                {
+                    "id": "Product.getDescription"
+                },
+                {
+                    "id": "Product.getName"
+                },
+                {
+                    "id": "Product.getProductId"
+                },
+                {
+                    "id": "Product.setCategoryId"
+                },
+                {
+                    "id": "Product.setDescription"
+                },
+                {
+                    "id": "Product.setName"
+                },
+                {
+                    "id": "Product.setProductId"
+                },
+                {
+                    "id": "Product.toString"
+                }
+            ]
+        },
+        "links": [
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsername",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsernameAndPassword",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.insertSignon",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.updateSignon",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.getAccount",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.insertAccount",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.lambda$updateAccount$1",
+                "target": "SIGNON TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsername",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsernameAndPassword",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.insertAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.updateAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.getAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.insertAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.updateAccount",
+                "target": "ACCOUNT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsername",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsernameAndPassword",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.insertProfile",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.updateProfile",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.getAccount",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.insertAccount",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.updateAccount",
+                "target": "PROFILE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsername",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountMapper.getAccountByUsernameAndPassword",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountService.getAccount",
+                "target": "BANNERDATA TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.listOrders",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.getOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.getOrdersByUsername",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.insertOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrdersByUsername",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "ORDERS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.listOrders",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.getOrder",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.getOrdersByUsername",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderMapper.insertOrderStatus",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrder",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrdersByUsername",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "ORDERSTATUS TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LineItemMapper.getLineItemsByOrderId",
+                "target": "LINEITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "LineItemMapper.insertLineItem",
+                "target": "LINEITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.viewOrder",
+                "target": "LINEITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getOrder",
+                "target": "LINEITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.lambda$insertOrder$1",
+                "target": "LINEITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewCategory",
+                "target": "CATEGORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getCategory",
+                "target": "CATEGORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getCategoryList",
+                "target": "CATEGORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CategoryMapper.getCategory",
+                "target": "CATEGORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CategoryMapper.getCategoryList",
+                "target": "CATEGORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.editAccount",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.newAccount",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "AccountActionBean.signon",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.searchProducts",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewCategory",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewItem",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewProduct",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getItem",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getItemListByProduct",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getProduct",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getProductListByCategory",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.searchProductList",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getItem",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getItemListByProduct",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.lambda$getOrder$2",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ProductMapper.getProduct",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ProductMapper.getProductListByCategory",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ProductMapper.searchProductList",
+                "target": "PRODUCT TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewItem",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewProduct",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getItem",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getItemListByProduct",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getItem",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getItemListByProduct",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.lambda$getOrder$2",
+                "target": "ITEM TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CartActionBean.addItemToCart",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogActionBean.viewItem",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.getItem",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "CatalogService.isItemInStock",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getInventoryQuantity",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.getItem",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "ItemMapper.updateInventoryQuantity",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.lambda$getOrder$2",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.lambda$insertOrder$0",
+                "target": "INVENTORY TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderActionBean.newOrder",
+                "target": "SEQUENCE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.getNextId",
+                "target": "SEQUENCE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "OrderService.insertOrder",
+                "target": "SEQUENCE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "SequenceMapper.getSequence",
+                "target": "SEQUENCE TABLE",
+                "weight": "1"
+            },
+            {
+                "source": "SequenceMapper.updateSequence",
+                "target": "SEQUENCE TABLE",
+                "weight": "1"
+            }
+        ]
+    }
+}
