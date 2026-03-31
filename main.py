@@ -21,11 +21,11 @@ from cleaning.mono2micro import Mono2MicroCleaner
 from cleaning.mosaic import MosaicCleaner
 from utils.utils import Utils
 
-CLEAN_CARGO = False
+CLEAN_CARGO = True
 # Extracts ground truth for applications from {app}_{classes/methods}.csv
-CLEAN_GROUND_TRUTH = False
-CLEAN_MONO2MICRO = False
-CLEAN_MOSAIC = False
+CLEAN_GROUND_TRUTH = True
+CLEAN_MONO2MICRO = True
+CLEAN_MOSAIC = True
 
 CONSTRUCT_METHOD_DECOMPOSITIONS = True
 
@@ -60,10 +60,10 @@ if __name__ == "__main__":
     ]
 
     relationships = [
-        # "semantic_names",
+        "semantic_names",
         "structural_static",
-        # "evolutionary_contributors",
-        # "evolutionary_commits"
+        "evolutionary_contributors",
+        "evolutionary_commits"
     ]
 
     data_repository = DataRepository("./data/decompositions")
